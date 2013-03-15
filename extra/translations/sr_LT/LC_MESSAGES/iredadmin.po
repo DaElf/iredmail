@@ -1,18 +1,18 @@
-# Polish (Poland) translations for PROJECT.
-# Copyright (C) 2011 ORGANIZATION
+# Copyright (C) 2013 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <k.skurzynski@kospel.pl>, 2011.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2013-03-15 10:40+0800\n"
-"PO-Revision-Date: 2013-03-15 00:53+0100\n"
-"Last-Translator: Adrian Grygier <adi@zwami.pl>\n"
-"Language-Team: pl_PL <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2)\n"
+"POT-Creation-Date: 2013-03-14 21:34+0800\n"
+"PO-Revision-Date: 2013-03-14 21:34+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: sr_CS <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,18 +24,18 @@ msgstr ""
 #: ../templates/default/pgsql/search.html:151
 #, python-format
 msgid "%d admin(s) found."
-msgstr "%d administratorów znaleziono."
+msgstr "Nađeno %d administrator(a)."
 
 #: ../templates/default/ldap/search.html:67
 #, python-format
 msgid "%d domain(s) found."
-msgstr "%d domen znaleziono"
+msgstr "Nađeno %d domen(a)."
 
 #: ../templates/default/mysql/search.html:73
 #: ../templates/default/pgsql/search.html:73
 #, python-format
 msgid "%d domains(s) found."
-msgstr "%d domen znaleziono"
+msgstr "Nađeno %d domen(a)."
 
 #: ../templates/default/dbmail_mysql/search.html:209
 #: ../templates/default/ldap/search.html:295
@@ -43,12 +43,12 @@ msgstr "%d domen znaleziono"
 #: ../templates/default/pgsql/search.html:279
 #, python-format
 msgid "%d mail alias(es) found."
-msgstr "Znaleziono %d alias(ów)."
+msgstr "%d mail alias(a) nađeno."
 
 #: ../templates/default/ldap/search.html:242
 #, python-format
 msgid "%d mail list(s) found."
-msgstr "Znaleziono %d alias(ów)."
+msgstr "%d mail list(a) nađeno."
 
 #: ../templates/default/dbmail_mysql/search.html:135
 #: ../templates/default/ldap/search.html:182
@@ -56,7 +56,7 @@ msgstr "Znaleziono %d alias(ów)."
 #: ../templates/default/pgsql/search.html:216
 #, python-format
 msgid "%d user(s) found."
-msgstr "Znaleziono %d użytkownika(ów)"
+msgstr "%d korisnik(a) nađeno."
 
 #: ../templates/default/macros/ldap.html:16
 #, python-format
@@ -74,20 +74,20 @@ msgstr "%s (%s)"
 #: ../templates/default/pgsql/domain/profile.html:396
 #, python-format
 msgid "%s account(s) exist."
-msgstr "Istnieje %s kont(o)"
+msgstr "%s nalog(a) postoji."
 
 #: ../templates/default/dashboard.html:106
 #, python-format
 msgid "%s days, %s hours, %s minutes."
-msgstr "%s dni, %s godzin, %s minut."
+msgstr "%s dana, %s sati, %s minuta."
 
 #: ../templates/default/macros/policyd.html:44
 msgid "1 Day"
-msgstr "1 dzień"
+msgstr "1 dan"
 
 #: ../templates/default/macros/policyd.html:44
 msgid "1 Hour"
-msgstr "1 godzina"
+msgstr "1 sat"
 
 #: ../templates/default/macros/policyd.html:44
 msgid "1 Minute"
@@ -96,17 +96,17 @@ msgstr "1 minuta"
 #: ../templates/default/macros/general.html:757
 #, python-format
 msgid "<a href='%s'>Domain and sub-domain users</a>"
-msgstr "<a href='%s'>Użytkownicy domeny i poddomen</a>"
+msgstr "<a href='%s'>Domenski and pod-domenski korisnici</a>"
 
 #: ../templates/default/macros/general.html:755
 #, python-format
 msgid "<a href='%s'>Domain users</a>"
-msgstr "<a href='%s'>Użytkownicy w domenie</a>"
+msgstr "<a href='%s'>Domenski korisnici</a>"
 
 #: ../templates/default/macros/general.html:759
 #, python-format
 msgid "<a href='%s'>Members</a>"
-msgstr "<a href='%s'>Użytkownicy</a>"
+msgstr "<a href='%s'>Članovi</a>"
 
 #: ../templates/default/ldap/maillist/profile.html:88
 #: ../templates/default/macros/general.html:763
@@ -114,19 +114,19 @@ msgstr "<a href='%s'>Użytkownicy</a>"
 #: ../templates/default/pgsql/alias/profile.html:77
 #, python-format
 msgid "<a href='%s'>Members</a> and <a href='%s'>moderators</a>"
-msgstr "<a href='%s'>Użytkownicy</a> i <a href='%s'>moderatorzy</a>"
+msgstr "<a href='%s'>Članovi</a> i <a href='%s'>urednici</a>"
 
 #: ../templates/default/macros/general.html:761
 #, python-format
 msgid "<a href='%s'>Moderators</a>"
-msgstr "<a href='%s'>Moderatorzy</a>"
+msgstr "<a href='%s'>Urednici</a>"
 
 #: ../templates/default/ldap/maillist/profile.html:84
 #: ../templates/default/mysql/alias/profile.html:73
 #: ../templates/default/pgsql/alias/profile.html:73
 #, python-format
 msgid "<a href='%s'>Users under domain <strong>%s</strong></a>"
-msgstr "<a href='%s'>Użytkownicy w domenie <strong>%s</strong></a>"
+msgstr "<a href='%s'>Korisnici na domenu <strong>%s</strong></a>"
 
 #: ../templates/default/ldap/maillist/profile.html:85
 #: ../templates/default/mysql/alias/profile.html:74
@@ -135,88 +135,88 @@ msgstr "<a href='%s'>Użytkownicy w domenie <strong>%s</strong></a>"
 msgid ""
 "<a href='%s'>Users under domain <strong>%s</strong></a> and its sub-"
 "domains"
-msgstr "<a href='%s'>Użytkownicy w domenie <strong>%s</strong></a> i poddomenach"
+msgstr "<a href='%s'>Korisnici na domenu <strong>%s</strong></a> i na pod-domenu\""
 
 #: ../templates/default/amavisd/inout.html:72
 #: ../templates/default/amavisd/inout.html:83
 msgid "About mail logs"
-msgstr "O logach poczty"
+msgstr "O poštankom dnevniku"
 
 #: ../templates/default/amavisd/quarantined.html:59
 msgid "About quarantined mails"
-msgstr "O poczcie w kwarantannie"
+msgstr "O pošti u karantinu"
 
 #: ../templates/default/ldap/user/profile.html:218
 msgid "Account NOT exists."
-msgstr "Konto NIE istnieje"
+msgstr "Nalog NE postoji."
 
 #: ../templates/default/macros/general.html:243
 msgid "Account activities"
-msgstr "Aktywność na koncie"
+msgstr "Aktivnosti naloga"
 
 #: ../templates/default/macros/msgHandlers.html:181
 #: ../templates/default/macros/msgHandlers.html:207
 #: ../templates/default/macros/msgHandlers.html:219
 #: ../templates/default/macros/msgHandlers.html:243
 msgid "Account already exists, please choose another username."
-msgstr "Konto już istnieje, wybierz inną nazwę użytkownika"
+msgstr "Nalog već postoji, molim izaberite drugo korisničko ime."
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:390
 #: ../templates/default/mysql/domain/profile.html:468
 #: ../templates/default/pgsql/domain/profile.html:450
 msgid "Account does not exist."
-msgstr "Konto nie istnieje."
+msgstr "Nalog ne postoji."
 
 #: ../templates/default/macros/general.html:199
 msgid "Account is active, but marked as backup MX."
-msgstr "Konto jest aktywne, ale oznaczone jako zapasowy MX."
+msgstr "Nalog je aktivan, ali je obeležen kao backup MX."
 
 #: ../templates/default/macros/general.html:192
 #: ../templates/default/macros/general.html:194
 msgid "Account is active, but relay to other host"
-msgstr "Konto jest aktywne, ale przekazuje do innego hosta"
+msgstr "Nalog je aktivan, ali prosleđuje na drugi host"
 
 #: ../templates/default/macros/general.html:188
 msgid "Account is active."
-msgstr "Konto jest aktywne"
+msgstr "Nalog je aktivan."
 
 #: ../templates/default/macros/general.html:201
 #: ../templates/default/macros/general.html:202
 msgid "Account is disabled."
-msgstr "Konto jest wyłączone"
+msgstr "Nalog je blokiran."
 
 #: ../templates/default/macros/general.html:209
 msgid "Account is domain admin"
-msgstr "Konto jest wyłączone"
+msgstr "Nalog je domenski administrator"
 
 #: ../templates/default/macros/general.html:211
 msgid "Account is global admin"
-msgstr "To nie jest administrator globalny"
+msgstr "Nalog je globalni administrator"
 
 #: ../templates/default/dbmail_mysql/search.html:50
 #: ../templates/default/ldap/search.html:48
 #: ../templates/default/mysql/search.html:51
 #: ../templates/default/pgsql/search.html:51
 msgid "Account status"
-msgstr "Status konta"
+msgstr "Status naloga"
 
 #: ../templates/default/dbmail_mysql/search.html:41
 #: ../templates/default/ldap/search.html:37
 #: ../templates/default/mysql/search.html:41
 #: ../templates/default/pgsql/search.html:41
 msgid "Account type"
-msgstr "Typ pola"
+msgstr "Tip naloga"
 
 #: ../templates/default/macros/general.html:898
 msgid "Activate account"
-msgstr "Konto aktywne"
+msgstr "Aktivan nalog"
 
 #: ../templates/default/dbmail_mysql/search.html:51
 #: ../templates/default/ldap/search.html:49
 #: ../templates/default/mysql/search.html:52
 #: ../templates/default/pgsql/search.html:52
 msgid "Active"
-msgstr "Aktywne"
+msgstr "Aktivan"
 
 #: ../templates/default/layout.html:106
 #: ../templates/default/dbmail_mysql/alias/create.html:82
@@ -238,7 +238,7 @@ msgstr "Dodaj"
 
 #: ../templates/default/macros/general.html:892
 msgid "Add account"
-msgstr "Dodaj konto"
+msgstr "Dodaj nalog"
 
 #: ../templates/default/dbmail_mysql/admin/create.html:13
 #: ../templates/default/dbmail_mysql/admin/create.html:25
@@ -265,7 +265,7 @@ msgstr "Dodaj administratora"
 #: ../templates/default/policyd/blacklist/create.html:28
 #: ../templates/default/policyd/whitelist/create.html:26
 msgid "Add blacklist"
-msgstr "Dodaj czarną listę"
+msgstr "Dodaj crnu listu"
 
 #: ../templates/default/dbmail_mysql/domain/create.html:7
 #: ../templates/default/dbmail_mysql/domain/create.html:20
@@ -287,7 +287,7 @@ msgstr "Dodaj czarną listę"
 #: ../templates/default/pgsql/domain/create.html:24
 #: ../templates/default/pgsql/domain/list.html:31
 msgid "Add domain"
-msgstr "Dodaj domenę"
+msgstr "Dodaj domen"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:415
 #: ../templates/default/dbmail_mysql/user/profile.html:155
@@ -297,7 +297,7 @@ msgstr "Dodaj domenę"
 #: ../templates/default/pgsql/domain/profile.html:475
 #: ../templates/default/pgsql/user/profile.html:156
 msgid "Add mail alias"
-msgstr "Dodaj alias pocztowy"
+msgstr "Dodaj alias za poštu"
 
 #: ../templates/default/dbmail_mysql/alias/create.html:9
 #: ../templates/default/dbmail_mysql/alias/create.html:55
@@ -309,38 +309,38 @@ msgstr "Dodaj alias pocztowy"
 #: ../templates/default/pgsql/alias/create.html:69
 #, python-format
 msgid "Add mail alias under domain: %s"
-msgstr "Dodaj alias pocztowy w domenie %s"
+msgstr "Dodaj poštanski alias unutar domena: %s"
 
 #: ../templates/default/ldap/domain/profile.html:475
 #: ../templates/default/ldap/user/profile.html:230
 msgid "Add mail list"
-msgstr "Dodaj listę mailową"
+msgstr "Dodaj poštansku listu"
 
 #: ../templates/default/ldap/maillist/create.html:10
 #: ../templates/default/ldap/maillist/create.html:74
 #, python-format
 msgid "Add mail list under domain: %s."
-msgstr "Dodaj listę w domenie %s"
+msgstr "Dodaj poštansku listu unutar domena: %s."
 
 #: ../templates/default/ldap/maillist/profile.html:383
 msgid "Add members"
-msgstr "Dodaj użytkowników"
+msgstr "Dodaj članove"
 
 #: ../templates/default/ldap/maillist/profile.html:397
 msgid "Add moderators"
-msgstr "Dodaj moderatorów"
+msgstr "Dodaj urednike"
 
 #: ../templates/default/dbmail_mysql/alias/profile.html:164
 #: ../templates/default/ldap/alias/profile.html:114
 #: ../templates/default/mysql/alias/profile.html:169
 #: ../templates/default/pgsql/alias/profile.html:169
 msgid "Add new members"
-msgstr "Dodaj nowych użytkowników"
+msgstr "Dodaj nove članove"
 
 #: ../templates/default/mysql/alias/profile.html:177
 #: ../templates/default/pgsql/alias/profile.html:177
 msgid "Add new moderators"
-msgstr "Dodaj moderatorów"
+msgstr "Dodaj nove urednike"
 
 #: ../templates/default/dbmail_mysql/alias/list.html:73
 #: ../templates/default/dbmail_mysql/domain/list.html:137
@@ -356,7 +356,7 @@ msgstr "Dodaj moderatorów"
 #: ../templates/default/pgsql/domain/list.html:146
 #: ../templates/default/pgsql/user/list.html:121
 msgid "Add one"
-msgstr "Dodaj jeden"
+msgstr "Dodaj jednog"
 
 #: ../templates/default/macros/msgHandlers.html:108
 #: ../templates/default/macros/msgHandlers.html:153
@@ -364,7 +364,7 @@ msgstr "Dodaj jeden"
 #: ../templates/default/macros/msgHandlers.html:228
 #: ../templates/default/macros/msgHandlers.html:260
 msgid "Add one more?"
-msgstr "dodaj jeden?"
+msgstr "Dodaj još?"
 
 #: ../templates/default/dbmail_mysql/user/create.html:13
 #: ../templates/default/dbmail_mysql/user/create.html:78
@@ -376,7 +376,7 @@ msgstr "dodaj jeden?"
 #: ../templates/default/pgsql/user/create.html:89
 #, python-format
 msgid "Add user under domain: %s"
-msgstr "Dodaj użytkownika w domenie %s"
+msgstr "Dodaj korisnika unutar domena: %s"
 
 #: ../templates/default/policyd/wblist.html:48
 #: ../templates/default/policyd/blacklist/create.html:25
@@ -384,7 +384,7 @@ msgstr "Dodaj użytkownika w domenie %s"
 #: ../templates/default/policyd/whitelist/create.html:25
 #: ../templates/default/policyd/whitelist/create.html:28
 msgid "Add whitelist"
-msgstr "Dodaj białą listę"
+msgstr "Dodaj belu listu"
 
 #: ../templates/default/layout.html:110
 #: ../templates/default/dbmail_mysql/search.html:45
@@ -402,19 +402,19 @@ msgstr "Administrator"
 #: ../templates/default/panel/log.html:22
 #: ../templates/default/panel/log.html:29
 msgid "Admin Log"
-msgstr "Log administracyjny"
+msgstr "Administratorski dnevnik"
 
 #: ../templates/default/macros/msgHandlers.html:188
 msgid "Admin created."
-msgstr "Administrator utworzony."
+msgstr "Administrator napravljen."
 
 #: ../templates/default/macros/general.html:890
 msgid "Admin login"
-msgstr "Logowanie administracyjne"
+msgstr "Administratorska prijava"
 
 #: ../templates/default/macros/msgHandlers.html:182
 msgid "Admin not exist."
-msgstr "Administrator nie istnieje"
+msgstr "Administrator ne postoji."
 
 #: ../templates/default/layout.html:78
 #: ../templates/default/ldap/alias/create.html:20
@@ -430,13 +430,13 @@ msgstr "Administrator nie istnieje"
 #: ../templates/default/ldap/user/profile.html:104
 #: ../templates/default/panel/log.html:55
 msgid "Admins"
-msgstr "Administratorzy"
+msgstr "Administratori"
 
 #: ../templates/default/ldap/user/admin.html:15
 #: ../templates/default/ldap/user/admin.html:54
 #, python-format
 msgid "Admins under domain: %s"
-msgstr "Użytkownicy w domenie %s"
+msgstr "Administratori unutar domena: %s"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:55
 #: ../templates/default/dbmail_mysql/user/profile.html:56
@@ -447,7 +447,7 @@ msgstr "Użytkownicy w domenie %s"
 #: ../templates/default/pgsql/domain/profile.html:67
 #: ../templates/default/pgsql/user/profile.html:72
 msgid "Advanced"
-msgstr "Zaawansowane"
+msgstr "Napredno"
 
 #: ../templates/default/layout.html:118
 #: ../templates/default/dbmail_mysql/search.html:43
@@ -478,14 +478,14 @@ msgstr "Alias"
 
 #: ../templates/default/macros/ldap.html:97
 msgid "Alias account"
-msgstr "Alias konta"
+msgstr "Alias nalozi"
 
 #: ../templates/default/ldap/domain/profile.html:217
 #: ../templates/default/ldap/domain/profile.html:228
 #: ../templates/default/mysql/domain/profile.html:280
 #: ../templates/default/pgsql/domain/profile.html:281
 msgid "Alias domains"
-msgstr "Alias domeny"
+msgstr "Alias domeni"
 
 #: ../templates/default/dbmail_mysql/alias/create.html:49
 #: ../templates/default/dbmail_mysql/alias/list.html:26
@@ -533,7 +533,7 @@ msgstr "Alias domeny"
 #: ../templates/default/pgsql/user/list.html:23
 #: ../templates/default/pgsql/user/profile.html:51
 msgid "Aliases"
-msgstr "Aliasy"
+msgstr "Aliasi"
 
 #: ../templates/default/dbmail_mysql/alias/list.html:32
 #: ../templates/default/ldap/alias/list.html:51
@@ -541,23 +541,23 @@ msgstr "Aliasy"
 #: ../templates/default/pgsql/alias/list.html:45
 #, python-format
 msgid "Aliases under domain: %s."
-msgstr "Aliasy w domenie: %s"
+msgstr "Aliasi unutar domena: %s."
 
 #: ../templates/default/policyd/wblist.html:43
 #: ../templates/default/policyd/blacklist/create.html:24
 #: ../templates/default/policyd/whitelist/create.html:24
 msgid "All Blacklists"
-msgstr "Wszystkie czarne listy"
+msgstr "Sve crne liste"
 
 #: ../templates/default/policyd/wblist.html:45
 #: ../templates/default/policyd/blacklist/create.html:23
 #: ../templates/default/policyd/whitelist/create.html:23
 msgid "All Whitelists"
-msgstr "Wszystkie białe listy"
+msgstr "Sve bele liste"
 
 #: ../templates/default/ldap/user/profile.html:388
 msgid "All accounts"
-msgstr "Wszystkie konta"
+msgstr "Svi nalozi"
 
 #: ../templates/default/dbmail_mysql/admin/create.html:24
 #: ../templates/default/dbmail_mysql/admin/list.html:29
@@ -572,7 +572,7 @@ msgstr "Wszystkie konta"
 #: ../templates/default/pgsql/admin/list.html:29
 #: ../templates/default/pgsql/admin/profile.html:28
 msgid "All admins"
-msgstr "Wszyscy administratorzy"
+msgstr "Svi administratori"
 
 #: ../templates/default/dbmail_mysql/alias/profile.html:20
 #: ../templates/default/dbmail_mysql/domain/create.html:18
@@ -611,26 +611,26 @@ msgstr "Wszyscy administratorzy"
 #: ../templates/default/pgsql/user/list.html:20
 #: ../templates/default/pgsql/user/profile.html:47
 msgid "All domains"
-msgstr "Wszystkie domeny"
+msgstr "Svi domeni"
 
 #: ../templates/default/dbmail_mysql/domain/list.html:36
 #: ../templates/default/ldap/domain/list.html:36
 #: ../templates/default/mysql/domain/list.html:36
 #: ../templates/default/pgsql/domain/list.html:36
 msgid "All domains under your control."
-msgstr "Wszystkie domeny pod twoją kontrolą."
+msgstr "Svi domeni pod tvojim upravljanjem."
 
 #: ../templates/default/dbmail_mysql/admin/list.html:35
 #: ../templates/default/ldap/admin/list.html:35
 #: ../templates/default/mysql/admin/list.html:35
 #: ../templates/default/pgsql/admin/list.html:35
 msgid "All mail administrators."
-msgstr "Wszyscy administratorzy poczty."
+msgstr "Svi poštanski administratori."
 
 #: ../templates/default/policyd/blacklist/create.html:73
 #: ../templates/default/policyd/whitelist/create.html:67
 msgid "All sub-domains"
-msgstr "Wszystkie poddomeny"
+msgstr "Svi pod-domeni"
 
 #: ../templates/default/dbmail_mysql/search.html:178
 #: ../templates/default/dbmail_mysql/domain/list.html:88
@@ -648,7 +648,7 @@ msgstr "Wszystkie poddomeny"
 #: ../templates/default/pgsql/domain/list.html:107
 #: ../templates/default/pgsql/user/list.html:111
 msgid "Allocated"
-msgstr "Przydzielone"
+msgstr "Dodeljen"
 
 #: ../templates/default/dbmail_mysql/alias/create.html:26
 #: ../templates/default/dbmail_mysql/user/create.html:35
@@ -661,7 +661,7 @@ msgstr "Przydzielone"
 #: ../templates/default/pgsql/user/create.html:44
 #, python-format
 msgid "Already exceed max number of account limit (%s)."
-msgstr "Przekroczona maksymalna liczba kont (%s)."
+msgstr "Već prelazi maksimalni broj limita naloga (%s)."
 
 #: ../templates/default/amavisd/inout.html:173
 #: ../templates/default/amavisd/quarantined.html:94
@@ -706,25 +706,25 @@ msgstr "Przekroczona maksymalna liczba kont (%s)."
 #: ../templates/default/pgsql/user/list.html:137
 #: ../templates/default/policyd/wblist.html:108
 msgid "Apply"
-msgstr "Zastosuj"
+msgstr "Primeni"
 
 #: ../templates/default/macros/general.html:470
 #, python-format
 msgid "At least %s characters, but no more than %s."
-msgstr "Minimalnie %s znaków, ale nie więcej niż %s"
+msgstr "Najmanje %s karaktera, ali ne više od %s."
 
 #: ../templates/default/macros/general.html:472
 #, python-format
 msgid "At least %s characters."
-msgstr "Minimalnie %s znaków"
+msgstr "Najmanje %s karaktera."
 
 #: ../templates/default/amavisd/quarantined_raw.html:10
 msgid "Attachments"
-msgstr "Załączniki"
+msgstr "Prilozi"
 
 #: ../templates/default/macros/general.html:537
 msgid "Available quota:"
-msgstr "Dostępna przestrzeń:"
+msgstr "Kvota na raspolaganju:"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:51
 #: ../templates/default/dbmail_mysql/user/profile.html:52
@@ -734,81 +734,81 @@ msgstr "Dostępna przestrzeń:"
 #: ../templates/default/pgsql/domain/profile.html:62
 #: ../templates/default/pgsql/user/profile.html:67
 msgid "BCC"
-msgstr "DW"
+msgstr "BCC"
 
 #: ../templates/default/macros/general.html:619
 msgid "BCC incoming emails to single address"
-msgstr "DW przychodzącą pocztę na jeden adres"
+msgstr "BCC dolazne pošte na jednu adresu"
 
 #: ../templates/default/macros/ldap.html:80
 #: ../templates/default/macros/ldap.html:100
 msgid "BCC incoming mails to other address"
-msgstr "DW przychodzącą pocztę na inny adres"
+msgstr "BCC dolazne pošte na druge adrese"
 
 #: ../templates/default/macros/general.html:631
 msgid "BCC outgoing emails to single address"
-msgstr "DW wychodzącą pocztę na jeden adres"
+msgstr "BCC odlazne pošte na jednu adresu"
 
 #: ../templates/default/macros/ldap.html:81
 #: ../templates/default/macros/ldap.html:101
 msgid "BCC outgoing mails to other address"
-msgstr "DW wychodzącą pocztę na inny adres"
+msgstr "BCC odlazne pošte na druge adrese"
 
 #: ../templates/default/macros/general.html:455
 msgid "Backup MX does not work with custom relay"
-msgstr "Zapasowy MX nie działa z niestandardowym przekazywaniem"
+msgstr "Backup MX ne radi sa naručenim prosleđivanjem"
 
 #: ../templates/default/macros/amavisd.html:33
 msgid "Banned"
-msgstr "Zbanowany"
+msgstr "Zabranjen"
 
 #: ../templates/default/policyd/wblist.html:12
 msgid "Blacklist"
-msgstr "Czarna lista"
+msgstr "Staviti na crnu listu"
 
 #: ../templates/default/policyd/blacklist/create.html:45
 msgid "Blacklist HELO records"
-msgstr "Znaczniki HELO czarnej listy"
+msgstr "Staviti na crnu listu HELO zapise"
 
 #: ../templates/default/policyd/blacklist/create.html:39
 msgid "Blacklist records"
-msgstr "Pozycje czarnej listy"
+msgstr "Zapisi na crnoj listi"
 
 #: ../templates/default/layout.html:99 ../templates/default/layout.html:123
 #: ../templates/default/policyd/wblist.html:55
 msgid "Blacklists"
-msgstr "Czarne listy"
+msgstr "Crne liste"
 
 #: ../templates/default/ldap/user/profile.html:344
 msgid "Bypass mails from below senders"
-msgstr "Przepuść pocztę z następujących adresów"
+msgstr "Obiđi poštu od pošiljalaca odozdo"
 
 #: ../templates/default/ldap/user/profile.html:358
 msgid "Bypass mails sent to below recipients"
-msgstr "Przepuść pocztę wysłaną na następujące adresy"
+msgstr "Obiđi poštu slatu na donje primaoce"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:53
 #: ../templates/default/ldap/domain/profile.html:120
 #: ../templates/default/mysql/domain/profile.html:63
 #: ../templates/default/pgsql/domain/profile.html:64
 msgid "Catch-all"
-msgstr "Przejmij wszystko"
+msgstr "Uhvati sve"
 
 #: ../templates/default/ldap/domain/profile.html:300
 #: ../templates/default/mysql/domain/profile.html:248
 #: ../templates/default/pgsql/domain/profile.html:249
 msgid "Catch-all Addresses"
-msgstr "Adresy przechwytujące"
+msgstr "Uhvati sve adrese"
 
 #: ../templates/default/ldap/domain/profile.html:309
 #: ../templates/default/mysql/domain/profile.html:257
 #: ../templates/default/pgsql/domain/profile.html:258
 msgid "Catch-all address may receive many spam emails."
-msgstr "Zapisz wszystkie adresy które mogą otrzymywać dużo spamu"
+msgstr "Uhvati sve adrese koje primaju puno spam pošte."
 
 #: ../templates/default/macros/ldap.html:113
 msgid "Check this box in order to enable other services"
-msgstr "Zaznacz to pole aby aktywować inne procesy związane z pocztą."
+msgstr "Štrikliraj ovaj kvadrat da bi dozvolio ostale usluge"
 
 #: ../templates/default/amavisd/inout.html:169
 #: ../templates/default/amavisd/quarantined.html:85
@@ -853,65 +853,65 @@ msgstr "Zaznacz to pole aby aktywować inne procesy związane z pocztą."
 #: ../templates/default/pgsql/user/list.html:132
 #: ../templates/default/policyd/wblist.html:105
 msgid "Choose Action"
-msgstr "Wybierz zachowanie"
+msgstr "Izaberi akciju"
 
 #: ../templates/default/macros/amavisd.html:69
 msgid "Choose activity type"
-msgstr "Wybierz typ zachowań"
+msgstr "Izaberi tip aktivnosti"
 
 #: ../templates/default/macros/general.html:662
 msgid "Company/Organization Name"
-msgstr "Przedsiębiorstwo/Organizacja"
+msgstr "Kompanija/Ime organizacije"
 
 #: ../templates/default/macros/general.html:493
 msgid "Confirm new password"
-msgstr "Potwierdź nowe hasło"
+msgstr "Potvrdi novu lozinku"
 
 #: ../templates/default/layout.html:157
 msgid "Contact webmaster"
-msgstr "Skontaktuj się z administratorem"
+msgstr "Kontaktiraj webmastera"
 
 #: ../templates/default/panel/license.html:49
 msgid "Contacts"
-msgstr "Aktywność na koncie"
+msgstr "Kontakti"
 
 #: ../templates/default/ldap/domain/profile.html:188
 msgid "Content of disclaimer will be appended to outgoing emails."
-msgstr "Zawartość zrzeczenia będzie automatycznie dołączana do wiadomości."
+msgstr "Sadržaj odricanja će biti dodati na odlazne pošte."
 
 #: ../templates/default/policyd/blacklist/create.html:78
 msgid ""
 "Could be a FQDN (Fully Qualified Domain Name) or IP address which "
 "enclosed in square brackets, for example <u>[1.2.3.4]</u>"
 msgstr ""
-"Może to być FQDN (pełna nazwa domenowa) lub adres IP, który jest "
-"zamknięty w nawias kwadratowy, np. <u>[1.2.3.4]</u>"
+"Može biti FQDN (Fully Qualified Domain Name) ili IP adresa koja je "
+"zatvorena u uglastim zagradama, na primer <u>[1.2.3.4]</u>"
 
 #: ../templates/default/macros/msgHandlers.html:139
 #: ../templates/default/macros/msgHandlers.html:176
 #: ../templates/default/macros/msgHandlers.html:177
 msgid "Current password is incorrect."
-msgstr "Bieżące hasło jest nieprawidłowe."
+msgstr "Trenutna lozinka je neispravna."
 
 #: ../templates/default/macros/policyd.html:35
 #: ../templates/default/macros/policyd.html:86
 msgid "Current value:"
-msgstr "Bieżąca wartość:"
+msgstr "Trenuta vrednost:"
 
 #: ../templates/default/macros/policyd.html:60
 #: ../templates/default/macros/policyd.html:85
 msgid "Custom:"
-msgstr "Niestandardowe:"
+msgstr "Po narudžbini:"
 
 #: ../templates/default/macros/ldap.html:98
 #: ../templates/default/macros/mysql.html:68
 msgid "Customize mail filter rule"
-msgstr "Zmień regułę filtra poczty"
+msgstr "Prilagođavanje poštanskih pravila"
 
 #: ../templates/default/macros/ldap.html:99
 #: ../templates/default/macros/mysql.html:69
 msgid "Customize mail filter rule over TLS/SSL"
-msgstr "Zmień regułę filtra poczty przez TLS/SSL"
+msgstr "Prilagođavanje poštanskih pravila preko TLS/SSL"
 
 #: ../templates/default/dbmail_mysql/domain/list.html:111
 #: ../templates/default/dbmail_mysql/domain/list.html:125
@@ -927,36 +927,36 @@ msgstr "Zmień regułę filtra poczty przez TLS/SSL"
 #: ../templates/default/pgsql/domain/list.html:120
 #: ../templates/default/pgsql/domain/list.html:134
 msgid "DISABLED"
-msgstr "WYŁĄCZONO"
+msgstr "ONESPOSOBLJEN"
 
 #: ../templates/default/policyd/wblist.html:26
 msgid "DNS Name"
-msgstr "Nazwa DNS"
+msgstr "DNS ime"
 
 #: ../templates/default/policyd/blacklist/create.html:70
 #: ../templates/default/policyd/whitelist/create.html:64
 msgid "DNS name"
-msgstr "Nazwa DNS"
+msgstr "DNS ime"
 
 #: ../templates/default/dashboard.html:6 ../templates/default/layout.html:74
 msgid "Dashboard"
-msgstr "Podsumowanie"
+msgstr "Komandna tabla"
 
 #: ../templates/default/amavisd/inout.html:110
 #: ../templates/default/macros/amavisd.html:13
 msgid "Date"
-msgstr "Data"
+msgstr "Datum"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:374
 #: ../templates/default/ldap/domain/profile.html:445
 #: ../templates/default/mysql/domain/profile.html:452
 #: ../templates/default/pgsql/domain/profile.html:434
 msgid "Default mail group(s) of new user"
-msgstr "Domyślna grupa dla nowych użytkowników"
+msgstr "Uobičajna poštanska grupa(e) novog korisnika"
 
 #: ../templates/default/macros/general.html:726
 msgid "Default quota of new user"
-msgstr "Domyślny przydział dyskowy dla nowych użytkowników"
+msgstr "Uobičajna kvota novog korisnika"
 
 #: ../templates/default/dbmail_mysql/search.html:121
 #: ../templates/default/dbmail_mysql/search.html:194
@@ -993,23 +993,23 @@ msgstr "Domyślny przydział dyskowy dla nowych użytkowników"
 #: ../templates/default/pgsql/user/list.html:135
 #: ../templates/default/policyd/wblist.html:106
 msgid "Delete"
-msgstr "Usuń"
+msgstr "Obriši"
 
 #: ../templates/default/macros/general.html:894
 msgid "Delete account"
-msgstr "Usuń konto"
+msgstr "Obriši nalog"
 
 #: ../templates/default/amavisd/inout.html:171
 #: ../templates/default/amavisd/quarantined.html:90
 #: ../templates/default/panel/log.html:121
 msgid "Delete all in database"
-msgstr "Usuń wszystkie z bazy danych"
+msgstr "Obriši sve iz baze"
 
 #: ../templates/default/amavisd/inout.html:170
 #: ../templates/default/amavisd/quarantined.html:87
 #: ../templates/default/panel/log.html:120
 msgid "Delete selected"
-msgstr "Usuń zaznaczone"
+msgstr "Obriši izabrano"
 
 #: ../templates/default/policyd/wblist.html:67
 msgid "Description"
@@ -1017,7 +1017,7 @@ msgstr "Opis"
 
 #: ../templates/default/ldap/domain/profile.html:491
 msgid "Directory of mailbox storage"
-msgstr "Folder w magazynie poczty"
+msgstr "Katalog skladištenja poštankih sandučića"
 
 #: ../templates/default/dbmail_mysql/search.html:120
 #: ../templates/default/dbmail_mysql/search.html:193
@@ -1050,22 +1050,22 @@ msgstr "Folder w magazynie poczty"
 #: ../templates/default/pgsql/domain/list.html:163
 #: ../templates/default/pgsql/user/list.html:134
 msgid "Disable"
-msgstr "Wyłącz"
+msgstr "Onesposobi"
 
 #: ../templates/default/macros/general.html:896
 msgid "Disable account"
-msgstr "Wyłącz konto"
+msgstr "Onesposobi nalog"
 
 #: ../templates/default/dbmail_mysql/search.html:52
 #: ../templates/default/ldap/search.html:50
 #: ../templates/default/mysql/search.html:53
 #: ../templates/default/pgsql/search.html:53
 msgid "Disabled"
-msgstr "Wyłączono"
+msgstr "Onesposobljen"
 
 #: ../templates/default/ldap/domain/profile.html:179
 msgid "Disclaimer"
-msgstr "Zrzeczenie odpowiedzialności"
+msgstr "Poricanje"
 
 #: ../templates/default/dbmail_mysql/search.html:80
 #: ../templates/default/dbmail_mysql/search.html:143
@@ -1098,16 +1098,16 @@ msgstr "Zrzeczenie odpowiedzialności"
 #: ../templates/default/pgsql/alias/list.html:62
 #: ../templates/default/pgsql/user/list.html:67
 msgid "Display Name"
-msgstr "Nazwa wyświetlana"
+msgstr "Prikaži ime"
 
 #: ../templates/default/macros/ldap.html:102
 #: ../templates/default/macros/ldap.html:106
 msgid "Display mail address in global LDAP address book"
-msgstr "Wyświetl adres email w globalnej książce adresowej"
+msgstr "Prikaži poštansku adresu u globalnom LDAP adresaru"
 
 #: ../templates/default/macros/general.html:377
 msgid "Displayed in Global LDAP Address Book"
-msgstr "Wyświetlać w globalnej książce adresowej"
+msgstr "Prikazano u globalno LDAP adresaru"
 
 #: ../templates/default/layout.html:109
 #: ../templates/default/dbmail_mysql/domain/list.html:52
@@ -1121,7 +1121,7 @@ msgstr "Wyświetlać w globalnej książce adresowej"
 #: ../templates/default/pgsql/search.html:80
 #: ../templates/default/pgsql/domain/list.html:52
 msgid "Domain"
-msgstr "Domena"
+msgstr "Domen"
 
 #: ../templates/default/dbmail_mysql/admin/list.html:13
 #: ../templates/default/ldap/admin/list.html:13
@@ -1130,63 +1130,63 @@ msgstr "Domena"
 #: ../templates/default/mysql/admin/list.html:13
 #: ../templates/default/pgsql/admin/list.html:13
 msgid "Domain Admins"
-msgstr "Administratorzy domeny"
+msgstr "Administratori domena"
 
 #: ../templates/default/macros/general.html:647
 msgid "Domain Name"
-msgstr "Nazwa domeny"
+msgstr "Ime domena"
 
 #: ../templates/default/macros/general.html:241
 msgid "Domain activities"
-msgstr "Aktywność w domenie"
+msgstr "Aktivnosti domena"
 
 #: ../templates/default/macros/general.html:404
 msgid "Domain admin"
-msgstr "Ilość domen."
+msgstr "Administrator domena"
 
 #: ../templates/default/macros/ldap.html:79
 msgid "Domain alias"
-msgstr "Alias domeny"
+msgstr "Aliasi domena"
 
 #: ../templates/default/macros/msgHandlers.html:97
 msgid "Domain already exists. Please check both primary or alias domains."
-msgstr "Domena już istnieje. Sprawdź na liście domen podstawowych i aliasów."
+msgstr "Domen već postoji. Molimo vas da proverite primarni i-ili alia"
 
 #: ../templates/default/ldap/user/profile.html:387
 msgid "Domain and its sub-domains"
-msgstr "Domena i poddomeny"
+msgstr "Domen i njegovi pod-domeni"
 
 #: ../templates/default/macros/msgHandlers.html:108
 msgid "Domain created."
-msgstr "Domena utworzona."
+msgstr "Domen napravljen."
 
 #: ../templates/default/macros/msgHandlers.html:95
 msgid "Domain name is empty."
-msgstr "Pusta nazwa domeny."
+msgstr "Ime domena je prazno."
 
 #: ../templates/default/macros/amavisd.html:65
 msgid "Domain name or mail address"
-msgstr "Nazwa domeny lub adres email"
+msgstr "Ime domena ili poštanska adresa"
 
 #: ../templates/default/macros/msgHandlers.html:128
 msgid "Domain name or username is missed."
-msgstr "Brak nazwy domeny lub użytkownika"
+msgstr "Ime domena ili korisničko ime je propušteno."
 
 #: ../templates/default/macros/general.html:712
 msgid "Domain quota size"
-msgstr "Przydział dysku dla domeny"
+msgstr "Veličina kvote domena"
 
 #: ../templates/default/macros/msgHandlers.html:130
 msgid ""
 "Domain quota size exceeded. Please contact your administrator or service "
 "provider to increase it."
 msgstr ""
-"Przydział dysku dla domeny został wyczerpany. Skontaktuj się z "
-"administratorem lub dostawcą usług aby go zwiększyć."
+"Veličina kvote domena je premašena, obratite se administratoru ili "
+"provajderu usluga da ih poveća."
 
 #: ../templates/default/panel/log.html:47
 msgid "Domains"
-msgstr "Domeny"
+msgstr "Domeni"
 
 #: ../templates/default/layout.html:75
 #: ../templates/default/dbmail_mysql/domain/list.html:17
@@ -1194,11 +1194,11 @@ msgstr "Domeny"
 #: ../templates/default/mysql/domain/list.html:17
 #: ../templates/default/pgsql/domain/list.html:17
 msgid "Domains and Accounts"
-msgstr "Domeny i konta"
+msgstr "Domeni i nalozi"
 
 #: ../templates/default/ldap/domain/profile.html:194
 msgid "Dump disclaimer automatically"
-msgstr "Automatyczne zrzeczenie odpowiedzialności"
+msgstr "Automatski odbaci odricanje"
 
 #: ../templates/default/amavisd/inout.html:129
 #: ../templates/default/amavisd/inout.html:139
@@ -1281,7 +1281,7 @@ msgstr "Automatyczne zrzeczenie odpowiedzialności"
 #: ../templates/default/pgsql/user/list.html:88
 #: ../templates/default/pgsql/user/profile.html:42
 msgid "Edit account profile"
-msgstr "Zmień profil konta"
+msgstr "Uređivanje profila naloga"
 
 #: ../templates/default/dbmail_mysql/alias/create.html:56
 #: ../templates/default/dbmail_mysql/alias/list.html:37
@@ -1304,7 +1304,7 @@ msgstr "Zmień profil konta"
 #: ../templates/default/pgsql/user/create.html:90
 #: ../templates/default/pgsql/user/list.html:54
 msgid "Edit domain profile"
-msgstr "Zmień profil domeny"
+msgstr "Uređivanje provila domena"
 
 #: ../templates/default/dbmail_mysql/search.html:177
 #: ../templates/default/dbmail_mysql/domain/list.html:88
@@ -1321,25 +1321,25 @@ msgstr "Zmień profil domeny"
 #: ../templates/default/pgsql/domain/list.html:105
 #: ../templates/default/pgsql/user/list.html:110
 msgid "Edit quota setting"
-msgstr "Zmień przydział dysku"
+msgstr "Uređivanje kvota podešavanja"
 
 #: ../templates/default/dbmail_mysql/user/profile.html:213
 #: ../templates/default/ldap/user/profile.html:332
 #, python-format
 msgid "Email address of alias account must end with domain name(s): %s."
-msgstr "Adres email konta aliasowego musi się kończyć nazwą domeny: %s."
+msgstr "Adresa pošte ili alias naloga mora da se završava imenom domena: %s."
 
 #: ../templates/default/dbmail_mysql/user/profile.html:198
 #: ../templates/default/ldap/user/profile.html:319
 msgid "Email addresses of alias accounts"
-msgstr "Adresy kont aliasowych"
+msgstr "Adrese alias naloga"
 
 #: ../templates/default/dashboard.html:80
 #: ../templates/default/dbmail_mysql/search.html:178
 #: ../templates/default/mysql/user/list.html:111
 #: ../templates/default/pgsql/user/list.html:111
 msgid "Emails"
-msgstr "Wiadomości"
+msgstr "E-pošte"
 
 #: ../templates/default/ldap/domain/profile.html:314
 #: ../templates/default/mysql/domain/profile.html:262
@@ -1348,8 +1348,8 @@ msgid ""
 "Emails delivered to non-exist mail accounts will be forwarded to catch-"
 "all address(es)."
 msgstr ""
-"Wiadomości dostarczone do nieistniejących kont będą przekazane na adres "
-"przechwytujący."
+"E-pošte dopremljene na nepostojeće naloge će biti prosleđene na catch-all"
+" adrese."
 
 #: ../templates/default/ldap/domain/profile.html:239
 #: ../templates/default/mysql/domain/profile.html:309
@@ -1359,22 +1359,22 @@ msgid ""
 "Emails sent to <em><strong>user@[ALIAS_DOMAIN]</strong></em> will be "
 "delivered to <em><strong>user@%s</strong></em>."
 msgstr ""
-"Wiadomości wysłane do <em><strong>użytkownik@[ALIAS_DOMAIN]</strong></em>"
-" będą przekazanedo <em><strong>użytkownik@%s</strong></em>."
+"E-pošte poslate na <em><strong>user@[ALIAS_DOMAIN]</strong></em> će biti "
+"dopremljene na <em><strong>user@%s</strong></em>."
 
 #: ../templates/default/dbmail_mysql/user/profile.html:212
 #: ../templates/default/ldap/user/profile.html:331
 #, python-format
 msgid "Emails sent to alias accounts will be delivered to user %s."
-msgstr "Poczta wysłana na konto aliasowe będzie przekazana do użytkownika %s."
+msgstr "E-pošta poslati na alias naloge će biti dopremljeni korisniku %s."
 
 #: ../templates/default/macros/msgHandlers.html:253
 msgid "Empty address is not allowed."
-msgstr "Puste adresy są niedozwolone"
+msgstr "Prazna adresa nije dozvoljena."
 
 #: ../templates/default/macros/msgHandlers.html:66
 msgid "Empty password is not allowed."
-msgstr "Puste hasła nie są dowolone."
+msgstr "Prazana lozinka nije dozvoljena."
 
 #: ../templates/default/dbmail_mysql/search.html:119
 #: ../templates/default/dbmail_mysql/search.html:192
@@ -1407,67 +1407,67 @@ msgstr "Puste hasła nie są dowolone."
 #: ../templates/default/pgsql/domain/list.html:162
 #: ../templates/default/pgsql/user/list.html:133
 msgid "Enable"
-msgstr "Włącz"
+msgstr "Omogući"
 
 #: ../templates/default/ldap/user/profile.html:314
 msgid "Enable alias account"
-msgstr "Włącz konto aliasowe"
+msgstr "Omogući alias nalog"
 
 #: ../templates/default/ldap/domain/profile.html:293
 #: ../templates/default/mysql/domain/profile.html:241
 #: ../templates/default/pgsql/domain/profile.html:242
 msgid "Enable catch-all"
-msgstr "Włącz przechwytywanie wszystkich maili"
+msgstr "Omogući catch-all"
 
 #: ../templates/default/ldap/domain/profile.html:207
 msgid "Enable domain alias"
-msgstr "Włącz aliasy dla domeny"
+msgstr "Omogući alias domena"
 
 #: ../templates/default/mysql/domain/profile.html:382
 msgid "Enable greylisting for this domain"
-msgstr "Aktywuj Szarą listę dla tej domeny"
+msgstr "Omogući sivu listu za ovaj domen"
 
 #: ../templates/default/ldap/user/profile.html:281
 #: ../templates/default/mysql/user/profile.html:171
 #: ../templates/default/pgsql/user/profile.html:171
 msgid "Enable mail forwarding"
-msgstr "Włącz przekazywanie wiadomości"
+msgstr "Omogući prosleđivanje pošte"
 
 #: ../templates/default/macros/policyd.html:7
 msgid "Enable recipient throttling"
-msgstr "Włącz ograniczenia dla odbiorcy"
+msgstr "Omogući prigušivanje primaoca"
 
 #: ../templates/default/macros/policyd.html:5
 msgid "Enable sender throttling"
-msgstr "Włącz ograniczenia dla nadawcy"
+msgstr "Omogući prigušivanje pošiljaoca"
 
 #: ../templates/default/macros/general.html:435
 msgid "Enable this account"
-msgstr "Konto jest włączone"
+msgstr "Omogući ovaj nalog"
 
 #: ../templates/default/macros/general.html:433
 msgid "Enable this domain"
-msgstr "Domena jest aktywna"
+msgstr "Omogući ovaj domen"
 
 #: ../templates/default/macros/ldap.html:110
 #: ../templates/default/macros/mysql.html:75
 #: ../templates/default/macros/mysql.html:81
 msgid "Enabled Services"
-msgstr "Usługi włączone"
+msgstr "Omogućene usluge"
 
 #: ../templates/default/ldap/user/profile.html:386
 #: ../templates/default/policyd/blacklist/create.html:67
 #: ../templates/default/policyd/whitelist/create.html:61
 msgid "Entire domain"
-msgstr "Cała domena"
+msgstr "Ceo domen"
 
 #: ../templates/default/dashboard.html:17
 msgid "Error while checking new version of iRedAdmin-Pro:"
-msgstr "Błąd przy sprawdzaniu nowej wersji"
+msgstr "Greška prilikom provere nove verzije iRedAdmin-Pro:"
 
 #: ../templates/default/panel/license.html:61
 msgid "Error while geting license info:"
-msgstr "Błąd przy sprawdzaniu nowej wersji %s"
+msgstr "Greška prilikom zasnivanja informacija licence:"
 
 #: ../templates/default/dbmail_mysql/alias/create.html:32
 #: ../templates/default/dbmail_mysql/user/create.html:48
@@ -1484,37 +1484,37 @@ msgstr "Błąd przy sprawdzaniu nowej wersji %s"
 #: ../templates/default/pgsql/alias/create.html:44
 #: ../templates/default/pgsql/user/create.html:57
 msgid "Error:"
-msgstr "Błąd:"
+msgstr "Greška:"
 
 #: ../templates/default/macros/general.html:888
 msgid "Events"
-msgstr "Zdarzenia"
+msgstr "Događaji"
 
 #: ../templates/default/ldap/maillist/profile.html:83
 #: ../templates/default/mysql/alias/profile.html:72
 #: ../templates/default/pgsql/alias/profile.html:72
 msgid "Everyone can send mail to this address"
-msgstr "Każdy może przesyłać pocztę na ten adres"
+msgstr "Svako može da šalje poštu na ovu adresu"
 
 #: ../templates/default/macros/msgHandlers.html:131
 msgid ""
 "Exceeded domain account limit. Please contact your administrator or "
 "service provider to increase it."
 msgstr ""
-"Przekroczony limit ilości kont. Skontaktuj się z adminstratorem lub "
-"dostawcą usług aby go zwiększyć."
+"Prekoračen limit naloga domena, obratite se administratoru ili operateru "
+"usluga da ga poveća."
 
 #: ../templates/default/panel/license.html:39
 msgid "Expire date"
-msgstr "Data wygaśnięcia."
+msgstr "Ističe"
 
 #: ../templates/default/panel/license.html:23
 msgid "Expired"
-msgstr "Data wygaśnięcia."
+msgstr "Isteklo"
 
 #: ../templates/default/policyd/wblist.html:68
 msgid "Expired Date"
-msgstr "Data wygaśnięcia."
+msgstr "Istekao"
 
 #: ../templates/default/ldap/admin/profile.html:83
 #: ../templates/default/ldap/alias/profile.html:79
@@ -1522,78 +1522,78 @@ msgstr "Data wygaśnięcia."
 #: ../templates/default/ldap/maillist/profile.html:110
 #: ../templates/default/ldap/user/profile.html:179
 msgid "Export account to"
-msgstr "Eksportuj konto do"
+msgstr "Izvezi nalog na"
 
 #: ../templates/default/ldap/maillist/profile.html:203
 msgid "External Members"
-msgstr "Użytkownicy zewnętrzni"
+msgstr "Spoljašnji članovi"
 
 #: ../templates/default/ldap/maillist/profile.html:329
 msgid "External moderators"
-msgstr "Moderatorzy zewnętrzni"
+msgstr "Spoljašnji urednici"
 
 #: ../templates/default/macros/ldap.html:93
 #: ../templates/default/macros/mysql.html:66
 msgid "Fetching mails via IMAP"
-msgstr "Pobieranie poczty przez IMAP"
+msgstr "Skidanje pošte preko IMAP-a"
 
 #: ../templates/default/macros/ldap.html:94
 #: ../templates/default/macros/mysql.html:67
 msgid "Fetching mails via IMAP over TLS/SSL"
-msgstr "Pobieranie poczty przez IMAP z TLS/SSL"
+msgstr "Skidanje pošte preko IMAP-a sa TLS/SSL"
 
 #: ../templates/default/macros/ldap.html:91
 #: ../templates/default/macros/mysql.html:64
 msgid "Fetching mails via POP3"
-msgstr "Pobieranie poczty przez POP3"
+msgstr "Skidanje pošte preko POP3"
 
 #: ../templates/default/macros/ldap.html:92
 #: ../templates/default/macros/mysql.html:65
 msgid "Fetching mails via POP3 over TLS/SSL"
-msgstr "Pobieranie poczty przez POP3 z TLS/SSL"
+msgstr "Skidanje pošte preko POP3 sa TLS/SSL"
 
 #: ../templates/default/panel/log.html:45
 msgid "Filter:"
-msgstr "Filtr:"
+msgstr "Filter:"
 
 #: ../templates/default/macros/general.html:796
 msgid "First Page"
-msgstr "Pierwsza strona"
+msgstr "Prva strana"
 
 #: ../templates/default/macros/general.html:676
 msgid "First name"
-msgstr "Pierwsza strona"
+msgstr "Ime"
 
 #: ../templates/default/macros/general.html:606
 msgid "For advanced settings and further information please see"
-msgstr "W celu zaawansowanej konfiguracji i dodatkowych informacji proszę zobaczyć"
+msgstr "Za napredna podešavanja i dodatne informacije pogledajte"
 
 #: ../templates/default/ldap/user/profile.html:383
 msgid "Format of sender and recipient"
-msgstr "Format nadawcy i odbiorcy"
+msgstr "Format pošiljaoca i primaoca"
 
 #: ../templates/default/dbmail_mysql/user/profile.html:180
 #: ../templates/default/ldap/user/profile.html:296
 #: ../templates/default/mysql/user/profile.html:193
 #: ../templates/default/pgsql/user/profile.html:193
 msgid "Forward mails to address"
-msgstr "Przekaż pocztę na adres"
+msgstr "Prosledi poštu(e) na adresu"
 
 #: ../templates/default/dbmail_mysql/user/profile.html:50
 #: ../templates/default/ldap/user/profile.html:117
 #: ../templates/default/mysql/user/profile.html:66
 #: ../templates/default/pgsql/user/profile.html:66
 msgid "Forwarding"
-msgstr "Przekazywanie"
+msgstr "Prosleđivanje"
 
 #: ../templates/default/macros/ldap.html:96
 msgid "Forwarding mails to other addresses"
-msgstr "Przekazywanie poczty na inne adresy"
+msgstr "Prosleđivanje pošte na druge adrese"
 
 #: ../templates/default/ldap/admin/profile.html:73
 #: ../templates/default/ldap/user/profile.html:160
 msgid "Full name"
-msgstr "Pełna nazwa"
+msgstr "Puno ime"
 
 #: ../templates/default/dbmail_mysql/admin/profile.html:44
 #: ../templates/default/dbmail_mysql/alias/profile.html:36
@@ -1613,7 +1613,7 @@ msgstr "Pełna nazwa"
 #: ../templates/default/pgsql/domain/profile.html:61
 #: ../templates/default/pgsql/user/profile.html:65
 msgid "General"
-msgstr "Ogólnie"
+msgstr "Opšti"
 
 #: ../templates/default/dbmail_mysql/search.html:82
 #: ../templates/default/dbmail_mysql/admin/list.html:51
@@ -1625,74 +1625,72 @@ msgstr "Ogólnie"
 #: ../templates/default/pgsql/search.html:162
 #: ../templates/default/pgsql/admin/list.html:51
 msgid "Global Admin"
-msgstr "Administrator globalny"
+msgstr "Global Admin"
 
 #: ../templates/default/macros/general.html:406
 msgid "Global admin"
-msgstr "Administrator globalny"
+msgstr "Global administrator"
 
 #: ../templates/default/macros/ldap.html:121
 #: ../templates/default/macros/mysql.html:78
 msgid "Greylisting"
-msgstr "Szara lista"
+msgstr "Greylisting"
 
 #: ../templates/default/policyd/wblist.html:27
 msgid "HELO Identities"
-msgstr "Znaczniki HELO"
+msgstr "HELO identiteti"
 
 #: ../templates/default/policyd/blacklist/create.html:76
 msgid "HELO identity"
-msgstr "Znacznik HELO"
+msgstr "HELO identitet"
 
 #: ../templates/default/dashboard.html:99
 msgid "Hostname"
-msgstr "Nazwa hosta"
+msgstr "Ime hosta"
 
 #: ../templates/default/panel/log.html:84
 #: ../templates/default/policyd/blacklist/create.html:58
 #: ../templates/default/policyd/whitelist/create.html:52
 msgid "IP Address"
-msgstr "Adres IP"
+msgstr "IP adresa"
 
 #: ../templates/default/policyd/wblist.html:24
 msgid "IP Addresses"
-msgstr "Adresy IP"
+msgstr "IP adrese"
 
 #: ../templates/default/dbmail_mysql/user/create.html:53
 #: ../templates/default/mysql/user/create.html:62
 #: ../templates/default/pgsql/user/create.html:62
 msgid "Increase it now?"
-msgstr "Zwiększyć to teraz"
+msgstr "Povećaj sada?"
 
 #: ../templates/default/ldap/maillist/profile.html:384
 msgid ""
 "Input mail addresses of either internal or external members below, "
 "multiple addresses must be seperated by comma, space or new line."
 msgstr ""
-"Wprowadź poniżej adresy email użytkowników wewnętrznych lub zewnętrznych."
-" Przy wprowadzaniu większej liczby adresów należy je rozdzielić "
-"przecinkami, spacjami lub wprowadzić w nowej linii"
+"Ulazne adrese za unutrašnje ili spoljašnje članove ispod, višestruke "
+"adrese moraju se odvojiti zarezom, prazno mesto ili novim redom."
 
 #: ../templates/default/ldap/maillist/profile.html:398
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
 "multiple addresses must be seperated by comma, space or new line."
 msgstr ""
-"Wprowadź poniżej adresy email moderatorów wewnętrznych lub zewnętrznych. "
-"Przy wprowadzaniu większej liczby adresów należy je rozdzielić "
-"przecinkami, spacjami lub wprowadzić w nowej linii"
+"Ulazne adrese za unutrašnje ili spoljašnje urednike ispod, višestruke "
+"adrese moraju se odvojiti zarezom, prazno mesto ili novim redom."
 
 #: ../templates/default/ldap/user/profile.html:373
 msgid "Install iRedAPD"
-msgstr "Zainstaluj iRedAPD"
+msgstr "Instalirati iRedAPD"
 
 #: ../templates/default/ldap/maillist/profile.html:133
 msgid "Internal Members"
-msgstr "Użytkownicy wewnętrzni."
+msgstr "Unutrašnji članovi"
 
 #: ../templates/default/ldap/maillist/profile.html:257
 msgid "Internal Moderators"
-msgstr "Moderatorzy wewnętrzni."
+msgstr "Unutrašnji urednici"
 
 #: ../templates/default/macros/msgHandlers.html:89
 #: ../templates/default/macros/msgHandlers.html:126
@@ -1704,39 +1702,39 @@ msgstr "Moderatorzy wewnętrzni."
 #: ../templates/default/macros/msgHandlers.html:323
 #: ../templates/default/macros/msgHandlers.html:347
 msgid "Invalid action."
-msgstr "Nieprawidłowe działanie"
+msgstr "Nevažeća akcija."
 
 #: ../templates/default/macros/msgHandlers.html:303
 #: ../templates/default/macros/msgHandlers.html:324
 msgid "Invalid domain name or mail address."
-msgstr "Niewłaściwa domena lub adres."
+msgstr "Nevažeće ime domena ili adresa pošte."
 
 #: ../templates/default/macros/msgHandlers.html:93
 msgid "Invalid domain name."
-msgstr "Niewłaściwa domena."
+msgstr "Nevažeće ime domena."
 
 #: ../templates/default/macros/msgHandlers.html:94
 #: ../templates/default/macros/msgHandlers.html:129
 #: ../templates/default/macros/msgHandlers.html:180
 #: ../templates/default/macros/msgHandlers.html:345
 msgid "Invalid mail address."
-msgstr "Niewłaściwy adres."
+msgstr "Nevažeća adresa e-pošte."
 
 #: ../templates/default/macros/msgHandlers.html:291
 msgid "Invalid product id."
-msgstr "Niewłaściwe zapytanie."
+msgstr "Nevažeći id. proizvoda"
 
 #: ../templates/default/macros/msgHandlers.html:305
 msgid "Invalid request data."
-msgstr "Niewłaściwe zapytanie."
+msgstr "Nevažeći zahtev podataka."
 
 #: ../templates/default/macros/msgHandlers.html:208
 msgid "Invalid username."
-msgstr "Niewłaściwa nazwa użytkownika."
+msgstr "Nevažeće korisničko ime."
 
 #: ../templates/default/macros/general.html:217
 msgid "Is a global admin."
-msgstr "Jest administratorem globalnym."
+msgstr "Je globalni administrator."
 
 #: ../templates/default/ldap/admin/create.html:44
 #: ../templates/default/mysql/admin/create.html:44
@@ -1745,84 +1743,83 @@ msgid ""
 "It is recommended to mark user as domain admin in user profile page "
 "instead of creating separate admin account."
 msgstr ""
-"Zaleca się, aby oznaczyć użytkownika jako administratora domeny na "
-"stronie profilu użytkownika zamiast tworzyć oddzielne konto "
-"administratora."
+"Preporučuje se označavanje korisnika kao administrator domena u "
+"korisničkom profilu umesto pravljenja odvojenog administratorskog naloga."
 
 #: ../templates/default/ldap/alias/create.html:111
 msgid ""
 "It's better to use mail list instead of alias, since we have mail deliver"
 " restriction for mail list."
 msgstr ""
-"Lepiej jest używać list mailingowych, jako że dla list dostępne są opcje "
-"ograniczeń w doręczaniu"
+"Bolje je koristiti poštansku listu nego li aliase, jer imamo ograničenja "
+"na mail listu."
 
 #: ../templates/default/ldap/search.html:194
 #: ../templates/default/ldap/user/admin.html:73
 #: ../templates/default/ldap/user/list.html:74
 msgid "Job Title"
-msgstr "Stanowisko"
+msgstr "Naslov posla"
 
 #: ../templates/default/macros/general.html:320
 msgid "Job Title/Responsibility"
-msgstr "Stanowisko/Obowiązki"
+msgstr "Naslov posla/odgovornosti"
 
 #: ../templates/default/dbmail_mysql/search.html:35
 #: ../templates/default/ldap/search.html:31
 #: ../templates/default/mysql/search.html:35
 #: ../templates/default/pgsql/search.html:35
 msgid "Keyword"
-msgstr "Słowo kluczowe"
+msgstr "Ključne reči"
 
 #: ../templates/default/macros/amavisd.html:11
 msgid "Kind"
-msgstr "Rodzaj"
+msgstr "Vrsta"
 
 #: ../templates/default/dbmail_mysql/user/list.html:56
 msgid "Last Login"
-msgstr "Ostatnie logowanie"
+msgstr "Poslednja prijava"
 
 #: ../templates/default/macros/general.html:877
 msgid "Last Page"
-msgstr "Ostatnia strona"
+msgstr "Poslednja strana"
 
 #: ../templates/default/macros/general.html:677
 msgid "Last name"
-msgstr "Nazwa hosta"
+msgstr "Prezime"
 
 #: ../templates/default/panel/license.html:54
 msgid "Latest version"
-msgstr "Ostatnia wersja"
+msgstr "Zadnja verzija"
 
 #: ../templates/default/macros/general.html:604
 #, python-format
 msgid "Leave it empty to use <a href='%s'>domain setting</a>."
-msgstr "Lub pozostaw to pole puste aby użyć <a href='%s'>ustawień domenowych</a>."
+msgstr "Ostaviti prazno, koristiti <a href='%s'>domain setting</a>."
 
 #: ../templates/default/ldap/domain/profile.html:501
 msgid "Leave it empty to use server-wide default setting."
-msgstr "Pozostaw puste aby użyć ustawień domyślnych."
+msgstr "Ostaviti prazno, korisiti kao celokupno serversko osnovno podešavanje"
 
 #: ../templates/default/layout.html:45 ../templates/default/layout.html:83
 #: ../templates/default/panel/license.html:3
 msgid "License"
-msgstr "Licencja"
+msgstr "Licenca"
 
 #: ../templates/default/panel/license.html:10
 msgid "License info"
-msgstr "Informacje o licencji"
+msgstr "Licenca info"
 
 #: ../templates/default/panel/license.html:21
 msgid "License is active"
-msgstr "Konto jest aktywne"
+msgstr "Licenca je aktivna"
 
 #: ../templates/default/panel/license.html:18
 msgid "License status"
-msgstr "Status konta"
+msgstr "Status licence"
 
 #: ../templates/default/panel/license.html:43
 msgid "Lifetime license"
-msgstr "Licencja dożywotnia"
+msgstr "Doživotna licenca"
 
 #: ../templates/default/dbmail_mysql/domain/list.html:122
 #: ../templates/default/dbmail_mysql/domain/list.html:127
@@ -1834,11 +1831,11 @@ msgstr "Licencja dożywotnia"
 #: ../templates/default/pgsql/domain/list.html:131
 #: ../templates/default/pgsql/domain/list.html:136
 msgid "List all mail aliases."
-msgstr "Pokaż wszystkie aliasy pocztowe."
+msgstr "Lista svih poštanskih aliasa."
 
 #: ../templates/default/ldap/domain/list.html:160
 msgid "List all mail lists."
-msgstr "Pokaż wszystkie listy mailingowe."
+msgstr "Lista svih poštanskih listi."
 
 #: ../templates/default/dbmail_mysql/domain/list.html:108
 #: ../templates/default/dbmail_mysql/domain/list.html:113
@@ -1851,33 +1848,33 @@ msgstr "Pokaż wszystkie listy mailingowe."
 #: ../templates/default/pgsql/domain/list.html:117
 #: ../templates/default/pgsql/domain/list.html:122
 msgid "List all mail users."
-msgstr "Pokaż wszystkich użytkowników poczty"
+msgstr "Lista svih poštanskih koriniska."
 
 #: ../templates/default/ldap/search.html:80
 #: ../templates/default/ldap/domain/list.html:55
 msgid "Lists"
-msgstr "Listy"
+msgstr "Liste"
 
 #: ../templates/default/layout.html:53
 #, python-format
 msgid "Logged in as %s"
-msgstr "Zalogowany jako %s"
+msgstr "Prijaveljen kao %s"
 
 #: ../templates/default/login.html:64
 msgid "Login"
-msgstr "Logowanie"
+msgstr "Prijava"
 
 #: ../templates/default/macros/msgHandlers.html:62
 msgid "Login required"
-msgstr "Trzeba się zalogować"
+msgstr "Potreba je prijava"
 
 #: ../templates/default/login.html:7 ../templates/default/login.html:42
 msgid "Login to manage your mail domains & accounts"
-msgstr "Zaloguj się aby zarządzać domenami i kontami pocztowymi"
+msgstr "Prijavite se da upravljate svojim mail domenima i nalozima"
 
 #: ../templates/default/layout.html:48
 msgid "Logout"
-msgstr "Wyloguj"
+msgstr "Odjava"
 
 #: ../templates/default/dbmail_mysql/search.html:81
 #: ../templates/default/dbmail_mysql/search.html:144
@@ -1921,31 +1918,31 @@ msgstr "Wyloguj"
 #: ../templates/default/pgsql/user/create.html:100
 #: ../templates/default/pgsql/user/list.html:68
 msgid "Mail Address"
-msgstr "Adres email"
+msgstr "E-pošta adrese"
 
 #: ../templates/default/macros/msgHandlers.html:108
 msgid "Mail Alias"
-msgstr "Alias pocztowy"
+msgstr "E-pošta alias"
 
 #: ../templates/default/dbmail_mysql/alias/list.html:12
 #: ../templates/default/ldap/alias/list.html:14
 #: ../templates/default/mysql/alias/list.html:13
 #: ../templates/default/pgsql/alias/list.html:13
 msgid "Mail Aliases"
-msgstr "Aliasy pocztowe"
+msgstr "E-pošta aliasi"
 
 #: ../templates/default/amavisd/quarantined_raw.html:6
 msgid "Mail Body"
-msgstr "Treść"
+msgstr "E-pošta telo"
 
 #: ../templates/default/ldap/search.html:253
 #: ../templates/default/ldap/maillist/list.html:71
 msgid "Mail Deliver Restriction"
-msgstr "Ograniczenia w dostarczaniu poczty"
+msgstr "Isporuka pošte ograničeno"
 
 #: ../templates/default/amavisd/quarantined_raw.html:20
 msgid "Mail Headers"
-msgstr "Nagłówki"
+msgstr "E-pošta zaglavlja"
 
 #: ../templates/default/layout.html:115
 #: ../templates/default/ldap/search.html:39
@@ -1958,7 +1955,7 @@ msgstr "Nagłówki"
 #: ../templates/default/ldap/user/list.html:50
 #: ../templates/default/macros/msgHandlers.html:108
 msgid "Mail List"
-msgstr "Lista mailowa"
+msgstr "E-pošta spisak"
 
 #: ../templates/default/ldap/alias/create.html:18
 #: ../templates/default/ldap/alias/list.html:22
@@ -1973,140 +1970,140 @@ msgstr "Lista mailowa"
 #: ../templates/default/ldap/user/list.html:24
 #: ../templates/default/ldap/user/profile.html:102
 msgid "Mail Lists"
-msgstr "Listy mailowe"
+msgstr "E-pošta liste"
 
 #: ../templates/default/dbmail_mysql/user/list.html:14
 #: ../templates/default/ldap/user/list.html:16
 #: ../templates/default/mysql/user/list.html:15
 #: ../templates/default/pgsql/user/list.html:15
 msgid "Mail Users"
-msgstr "Użytkownicy poczty"
+msgstr "E-pošta korisnici"
 
 #: ../templates/default/macros/msgHandlers.html:144
 msgid "Mail address already exists, please choose another one."
-msgstr "Adres pocztowy już istnieje. Proszę wybrać inny."
+msgstr "Adresa e-pošte već postoji, molimo vas izaberite drugu."
 
 #: ../templates/default/macros/msgHandlers.html:260
 msgid "Mail alias created."
-msgstr "Utworzono alias pocztowy."
+msgstr "Alias pošte napravljen."
 
 #: ../templates/default/macros/msgHandlers.html:228
 msgid "Mail list created."
-msgstr "Utworzono listę mailową."
+msgstr "Lista pošte napravljena."
 
 #: ../templates/default/ldap/maillist/list.html:53
 #, python-format
 msgid "Mail lists under domain: %s"
-msgstr "Listy w domenie: %s"
+msgstr "Liste pošte unutar domena: %s"
 
 #: ../templates/default/amavisd/inout.html:85
 #, python-format
 msgid ""
 "Mail logs of incoming and outgoing mails which older than %d days will be"
 " deleted from database permanantly."
-msgstr "Logi pocztowe starsze niż %d dni zostaną trwale usunięte z bazy danych."
+msgstr ""
+"Dnevnici dolaznih i odlaznih pošta koje su starije od %d dana će biti "
+"obrisani iz baze zauvek."
 
 #: ../templates/default/dbmail_mysql/alias/profile.html:105
 #: ../templates/default/ldap/alias/profile.html:92
 #: ../templates/default/mysql/alias/profile.html:102
 #: ../templates/default/pgsql/alias/profile.html:102
 msgid "Mail sent to alias will be forwarded to members."
-msgstr "Poczta wysłana na alias zostanie przesłana do użytkowników."
+msgstr "Pošta poslata na alias će biti prosleđena članovima."
 
 #: ../templates/default/macros/ldap.html:113
 msgid "Mail service"
-msgstr "Usługi pocztowe"
+msgstr "Usluga e-pošte"
 
 #: ../templates/default/dbmail_mysql/user/list.html:91
 #: ../templates/default/macros/general.html:527
 msgid "Mailbox Quota"
-msgstr "Przydział dysku na skrzynkę pocztową"
+msgstr "Kvota poštanskog sandučeta"
 
 #: ../templates/default/amavisd/inout.html:45
 #, python-format
 msgid "Mails Sent by Domain: %s"
-msgstr "Wiadomości wysłane w domenie: %s"
+msgstr "E-pošte poslate sa domena: %s"
 
 #: ../templates/default/amavisd/inout.html:48
 #, python-format
 msgid "Mails Sent by User: %s"
-msgstr "Wiadomości wysłane przez użytkownika: %s"
+msgstr "E-pošte poslate od strane korinsika: %s"
 
 #: ../templates/default/macros/msgHandlers.html:302
 msgid "Mails were deleted."
-msgstr "Wiadomości zostały usunięte."
+msgstr "E-pošta je obrisana."
 
 #: ../templates/default/macros/msgHandlers.html:301
 msgid "Mails were released."
-msgstr "Wiadomosci zostały wysłane."
+msgstr "E-pošte su puštene."
 
 #: ../templates/default/ldap/domain/profile.html:192
 msgid "Make sure disclaimer work as expected:"
-msgstr ""
-"Upewnij się, że zrzeczenie odpowiedzialności działa zgodnie z "
-"oczekiwaniami"
+msgstr "Uverite se da odricanje radi kako je očekivano:"
 
 #: ../templates/default/ldap/user/profile.html:373
 msgid "Make sure you have iRedAPD work as expected:"
-msgstr "Upewnij się, że iRedAPD dizała tak jak powinien."
+msgstr "Uverite se da iRedAPD koji imate radi kako je očekivano:"
 
 #: ../templates/default/macros/ldap.html:5
 #: ../templates/default/macros/mysql.html:5
 msgid "Managed Domains"
-msgstr "Zarządzane domeny"
+msgstr "Poslovni domeni"
 
 #: ../templates/default/macros/general.html:446
 msgid "Mark as backup MX"
-msgstr "Oznacz jako zapasowy MX"
+msgstr "Obeleži kao backup MX"
 
 #: ../templates/default/ldap/user/list.html:157
 msgid "Mark as domain admin"
-msgstr "Wszyscy administratorzy poczty."
+msgstr "Obeleži kao domen admin"
 
 #: ../templates/default/macros/ldap.html:88
 msgid "Mark as domain administrator"
-msgstr "Wszyscy administratorzy poczty."
+msgstr "Obeleži kao administrator domena"
 
 #: ../templates/default/ldap/user/list.html:161
 #: ../templates/default/macros/general.html:387
 msgid "Mark as global admin"
-msgstr "Zaznacz jako administratora globalnego"
+msgstr "Obeleži kao globalni admin"
 
 #: ../templates/default/macros/general.html:402
 msgid "Mark this user as"
-msgstr "Oznacz tego użytkownika jako"
+msgstr "Obeleži ovog korisnika kao"
 
 #: ../templates/default/macros/policyd.html:71
 msgid "Max size of single outgoing email"
-msgstr "Maksymalny rozmiar wiadomości wychodzącej"
+msgstr "Najveća veličina pojedinačne odlazne pošte"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:353
 #: ../templates/default/ldap/domain/profile.html:422
 #: ../templates/default/mysql/domain/profile.html:429
 #: ../templates/default/pgsql/domain/profile.html:411
 msgid "Maximal password length"
-msgstr "Maksymalna długość hasła"
+msgstr "Najveća dužina lozinke"
 
 #: ../templates/default/macros/msgHandlers.html:212
 #: ../templates/default/macros/msgHandlers.html:250
 msgid "Member assigned success."
-msgstr "Użytkownik wprowadzony prawidłowo."
+msgstr "Član uspešno dodeljen."
 
 #: ../templates/default/dbmail_mysql/user/profile.html:123
 #: ../templates/default/ldap/user/profile.html:240
 #: ../templates/default/mysql/user/profile.html:124
 #: ../templates/default/pgsql/user/profile.html:124
 msgid "Member of Mail Aliases"
-msgstr "Używa aliasów"
+msgstr "Član aliasa e-pošte"
 
 #: ../templates/default/ldap/user/profile.html:193
 msgid "Member of Mail Lists"
-msgstr "Należy do list mailiowych"
+msgstr "Član listi e-pošte"
 
 #: ../templates/default/macros/msgHandlers.html:213
 #: ../templates/default/macros/msgHandlers.html:251
 msgid "Member removed success."
-msgstr "Użytkownik usunięty"
+msgstr "Član uspešno uklonjen."
 
 #: ../templates/default/dbmail_mysql/alias/profile.html:104
 #: ../templates/default/ldap/alias/profile.html:91
@@ -2117,26 +2114,26 @@ msgstr "Użytkownik usunięty"
 #: ../templates/default/pgsql/alias/profile.html:75
 #: ../templates/default/pgsql/alias/profile.html:101
 msgid "Members"
-msgstr "Użytkownicy"
+msgstr "Članovi"
 
 #: ../templates/default/panel/log.html:85
 msgid "Message"
-msgstr "Wiadomość"
+msgstr "Poruka"
 
 #: ../templates/default/ldap/maillist/profile.html:129
 msgid "Messages sent to mail list will be delivered to its members."
-msgstr "Wiadomości wysłane na listę mailową zostaną doręczone do jej użytkowników."
+msgstr "Poruke poslate na poštansku listu će biti dopremljene njihovim članovima."
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:346
 #: ../templates/default/ldap/domain/profile.html:415
 #: ../templates/default/mysql/domain/profile.html:422
 #: ../templates/default/pgsql/domain/profile.html:404
 msgid "Minimal password length"
-msgstr "Minimalna długość hasła"
+msgstr "Najmanja dužina lozinke"
 
 #: ../templates/default/macros/general.html:327
 msgid "Mobile"
-msgstr "Tel. komórkowy"
+msgstr "Mobilni"
 
 #: ../templates/default/ldap/maillist/profile.html:55
 #: ../templates/default/ldap/maillist/profile.html:87
@@ -2145,15 +2142,15 @@ msgstr "Tel. komórkowy"
 #: ../templates/default/pgsql/alias/profile.html:76
 #: ../templates/default/pgsql/alias/profile.html:138
 msgid "Moderators"
-msgstr "Moderatorzy"
+msgstr "Urednici"
 
 #: ../templates/default/macros/msgHandlers.html:214
 msgid "Moderators assigned success."
-msgstr "Moderator dodany."
+msgstr "Urednici uspešno dodeljeni."
 
 #: ../templates/default/macros/msgHandlers.html:215
 msgid "Moderators removed success."
-msgstr "Moderator usunięty"
+msgstr "Urednici uspešno uklonjeni."
 
 #: ../templates/default/ldap/domain/profile.html:251
 #: ../templates/default/mysql/domain/profile.html:190
@@ -2161,7 +2158,7 @@ msgstr "Moderator usunięty"
 #: ../templates/default/pgsql/domain/profile.html:191
 #: ../templates/default/pgsql/user/profile.html:212
 msgid "Monitor incoming emails via BCC"
-msgstr "Monitoruj przychodzącą pocztę przez UDW"
+msgstr "Prati dolazeću poštu kroz BCC"
 
 #: ../templates/default/ldap/domain/profile.html:258
 #: ../templates/default/mysql/domain/profile.html:197
@@ -2169,13 +2166,13 @@ msgstr "Monitoruj przychodzącą pocztę przez UDW"
 #: ../templates/default/pgsql/domain/profile.html:198
 #: ../templates/default/pgsql/user/profile.html:219
 msgid "Monitor outgoing emails via BCC"
-msgstr "Monitoruj wychodzącą pocztę przez UDW"
+msgstr "Prati odlaznu poštu kroz BCC"
 
 #: ../templates/default/ldap/domain/profile.html:315
 #: ../templates/default/mysql/domain/profile.html:263
 #: ../templates/default/pgsql/domain/profile.html:264
 msgid "Multiple addresses MUST be seperated by comma (,)."
-msgstr "Kilka adresów musi być rozdzielone przecinkiem."
+msgstr "Višestruke adrese MORAJU biti odvojene zarezom (,)."
 
 #: ../templates/default/ldap/domain/profile.html:272
 #: ../templates/default/ldap/user/profile.html:487
@@ -2184,7 +2181,7 @@ msgstr "Kilka adresów musi być rozdzielone przecinkiem."
 #: ../templates/default/pgsql/domain/profile.html:212
 #: ../templates/default/pgsql/user/profile.html:232
 msgid "Multiple addresses are NOT supported."
-msgstr "Nie ma wsparcia dla użycia kilku adresów."
+msgstr "Višestruke adrese NISU podržane."
 
 #: ../templates/default/dbmail_mysql/domain/list.html:53
 #: ../templates/default/ldap/search.html:78
@@ -2194,38 +2191,38 @@ msgstr "Nie ma wsparcia dla użycia kilku adresów."
 #: ../templates/default/pgsql/search.html:81
 #: ../templates/default/pgsql/domain/list.html:53
 msgid "Name"
-msgstr "Nazwa"
+msgstr "Ime"
 
 #: ../templates/default/macros/general.html:776
 msgid "Need a random password?"
-msgstr "Potrzebujesz losowego hasła?"
+msgstr "Potrebna slučajna lozinka?"
 
 #: ../templates/default/dashboard.html:119
 msgid "Network"
-msgstr "Sieć"
+msgstr "Mreža"
 
 #: ../templates/default/macros/general.html:487
 msgid "New password"
-msgstr "Nowe hasło"
+msgstr "Nova lozinka"
 
 #: ../templates/default/macros/msgHandlers.html:193
 #, python-format
 msgid "New password must NOT contain more than %s characters."
-msgstr "Nowe hasło musi zawierać mniej niż %s znaków."
+msgstr "Nova lozinka NE sme da sadrži više od %s karaktera."
 
 #: ../templates/default/macros/msgHandlers.html:191
 #, python-format
 msgid "New password must contain at least %s characters."
-msgstr "Nowe hasło musi zawierać minimum %s znaków."
+msgstr "Nova lozinka treba da sadrži barem %s karaktera."
 
 #: ../templates/default/macros/msgHandlers.html:140
 #: ../templates/default/macros/msgHandlers.html:178
 msgid "New passwords are not match."
-msgstr "Nowa hasła różnią się."
+msgstr "Nove lozinke nisu iste."
 
 #: ../templates/default/layout.html:31
 msgid "New version available"
-msgstr "Dostępna nowa wersja"
+msgstr "Nova verzija je dostupna"
 
 #: ../templates/default/dashboard.html:14
 #, python-format
@@ -2233,69 +2230,69 @@ msgid ""
 "New version of iRedAdmin-Pro, %s, is now available for upgrading. <a "
 "href='%s/system/license' class='button green'>Details</a>"
 msgstr ""
-"Nowa wersja iRedAdmin-Pro, %s jest teraz dostępna do uaktualnienia. <a "
-"href='%s/system/license' class='button green'>Szczegóły</a>"
+"Nova verzija iRedAdmin-Pro, %s, je sada dostupna za poboljšanje. <a "
+"href='%s/system/license' class='button green'>Details</a>"
 
 #: ../templates/default/layout.html:154
 msgid "News & Announments"
-msgstr "Wiadomości i ogłoszenia"
+msgstr "Vesti i obaveštenja"
 
 #: ../templates/default/macros/general.html:873
 msgid "Next Page"
-msgstr "Następna strona"
+msgstr "Sledeća strana"
 
 #: ../templates/default/macros/msgHandlers.html:175
 msgid "No account selected."
-msgstr "Nie wybrano żadnego konta"
+msgstr "Nalog nije izabran."
 
 #: ../templates/default/panel/log.html:108
 msgid "No admin log."
-msgstr "Brak logu administracyjnego"
+msgstr "Nema admin dnevnika."
 
 #: ../templates/default/macros/msgHandlers.html:102
 #: ../templates/default/macros/msgHandlers.html:127
 #: ../templates/default/macros/msgHandlers.html:220
 #: ../templates/default/macros/msgHandlers.html:246
 msgid "No domain under control."
-msgstr "Niekontrolujesz żadnej domeny"
+msgstr "Nema domena pod kontrolom."
 
 #: ../templates/default/ldap/maillist/profile.html:226
 msgid "No external members."
-msgstr "Brak użytkowników zewnętrznych"
+msgstr "Spoljnih članova nema."
 
 #: ../templates/default/ldap/maillist/profile.html:353
 msgid "No external moderators."
-msgstr "Brak moderatorów zewnętrznych"
+msgstr "Spoljnih urednika nema."
 
 #: ../templates/default/dbmail_mysql/user/create.html:40
 #: ../templates/default/ldap/user/create.html:64
 #: ../templates/default/mysql/user/create.html:49
 #: ../templates/default/pgsql/user/create.html:49
 msgid "No free domain quota left."
-msgstr "Przydział dysku wyczerpany"
+msgstr "Nema slobodne domenske kvote."
 
 #: ../templates/default/amavisd/inout.html:158
 msgid "No incoming mails."
-msgstr "Brak wiadomości przychodzących"
+msgstr "Dolaznih e-pošti nema."
 
 #: ../templates/default/ldap/maillist/profile.html:180
 msgid "No internal members."
-msgstr "Brak użytkowników wewnętrznych"
+msgstr "Unutrašnjih članova nema."
 
 #: ../templates/default/ldap/maillist/profile.html:308
 msgid "No internal moderators."
-msgstr "Brak moderatorów wewnętrznych"
+msgstr "Unutrašnjih urednika nema."
 
 #: ../templates/default/ldap/user/admin.html:133
 msgid "No mail admin available."
-msgstr "Nie utworzono domen pocztowych"
+msgstr "Administrator pošte nije dostupan."
 
 #: ../templates/default/dbmail_mysql/alias/list.html:73
 #: ../templates/default/ldap/alias/list.html:100
 #: ../templates/default/mysql/alias/list.html:86
 #: ../templates/default/pgsql/alias/list.html:86
 msgid "No mail alias available."
-msgstr "Nie utworzono aliasów pocztowych."
+msgstr "Alias pošte nije dostupan."
 
 #: ../templates/default/dbmail_mysql/domain/list.html:136
 #: ../templates/default/dbmail_mysql/domain/list.html:140
@@ -2307,47 +2304,47 @@ msgstr "Nie utworzono aliasów pocztowych."
 #: ../templates/default/pgsql/domain/list.html:145
 #: ../templates/default/pgsql/domain/list.html:149
 msgid "No mail domain available."
-msgstr "Nie utworzono domen pocztowych"
+msgstr "Domen pošte nije dostupan."
 
 #: ../templates/default/ldap/maillist/list.html:100
 msgid "No mail list available."
-msgstr "Nie utworzono list mailowych"
+msgstr "Lista pošte nije dostupna."
 
 #: ../templates/default/dbmail_mysql/user/list.html:103
 #: ../templates/default/ldap/user/list.html:141
 #: ../templates/default/mysql/user/list.html:121
 #: ../templates/default/pgsql/user/list.html:121
 msgid "No mail user available."
-msgstr "Nie utworzono użytkowników poczty."
+msgstr "Korisnik pošte nije dostupan."
 
 #: ../templates/default/macros/msgHandlers.html:221
 msgid "No moderator selected."
-msgstr "Nie wybrano moderatora."
+msgstr "Urednik nije izabran."
 
 #: ../templates/default/macros/general.html:474
 #, python-format
 msgid "No more than %s characters."
-msgstr "Nie więcej niż %s znaków"
+msgstr "Ne više od %s karaktera."
 
 #: ../templates/default/amavisd/inout.html:156
 msgid "No outgoing mails."
-msgstr "Brak wiadomości wychodzących"
+msgstr "Nema odlaznih pošta."
 
 #: ../templates/default/macros/amavisd.html:46
 msgid "No quarantined mails."
-msgstr "Brak wiadomości w kwarantannie"
+msgstr "Nema karantiranih pošta."
 
 #: ../templates/default/policyd/wblist.html:95
 msgid "No records."
-msgstr "Brak danych"
+msgstr "Nema zapisa."
 
 #: ../templates/default/macros/msgHandlers.html:100
 msgid "No such domain."
-msgstr "Niewłaściwa domena"
+msgstr "Nema takvog domena."
 
 #: ../templates/default/macros/general.html:220
 msgid "Not a global admin."
-msgstr "To nie jest administrator globalny"
+msgstr "Nije globalni admin."
 
 #: ../templates/default/dbmail_mysql/alias/create.html:23
 #: ../templates/default/dbmail_mysql/user/create.html:32
@@ -2358,66 +2355,66 @@ msgstr "To nie jest administrator globalny"
 #: ../templates/default/pgsql/alias/create.html:35
 #: ../templates/default/pgsql/user/create.html:41
 msgid "Not allowed to create mail alias under this domain."
-msgstr "Nie masz uprawnień do tworzenia aliasów w tej domenie."
+msgstr "Nije dozvoljeno pravljenje aliasa e-pošte pod ovim domenom."
 
 #: ../templates/default/ldap/maillist/create.html:40
 #: ../templates/default/macros/msgHandlers.html:222
 msgid "Not allowed to create mail list under this domain."
-msgstr "Nie masz uprawnień do tworzenia list mailowych w tej domenie."
+msgstr "Nije dozvoljeno pravljenje lista e-pošte pod ovim domenom."
 
 #: ../templates/default/ldap/user/create.html:69
 #: ../templates/default/ldap/user/create.html:72
 #: ../templates/default/macros/msgHandlers.html:147
 msgid "Not allowed to create mail user under this domain."
-msgstr "Nie masz uprawnień do tworzenia użytkowników poczty w tej domenie."
+msgstr "Nije dozvoljeno pravljenje novog korisnika e-pošte pod ovim domenom."
 
 #: ../templates/default/ldap/user/profile.html:373
 #: ../templates/default/policyd/blacklist/create.html:83
 #: ../templates/default/policyd/whitelist/create.html:72
 msgid "Note"
-msgstr "Uwaga"
+msgstr "Nota"
 
 #: ../templates/default/dashboard.html:71
 msgid "Number of aliases"
-msgstr "Liczba aliasów"
+msgstr "Broja aliasa"
 
 #: ../templates/default/dashboard.html:60
 msgid "Number of domains"
-msgstr "Ilość domen."
+msgstr "Broj domena"
 
 #: ../templates/default/macros/policyd.html:20
 msgid "Number of max incoming emails"
-msgstr "Maksymalna ilość przychodzących maili"
+msgstr "Najveći broj dolaznih pošti"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:335
 #: ../templates/default/ldap/domain/profile.html:404
 #: ../templates/default/mysql/domain/profile.html:411
 #: ../templates/default/pgsql/domain/profile.html:393
 msgid "Number of max mail aliases"
-msgstr "Maksymalna liczba aliasów pocztowych"
+msgstr "Najveći broj aliasa"
 
 #: ../templates/default/ldap/domain/profile.html:397
 msgid "Number of max mail lists"
-msgstr "Maksymalna liczba list mailowych"
+msgstr "Najveći broj poštanskih listi"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:327
 #: ../templates/default/ldap/domain/profile.html:389
 #: ../templates/default/mysql/domain/profile.html:403
 #: ../templates/default/pgsql/domain/profile.html:385
 msgid "Number of max mail users"
-msgstr "Maksymalna liczba użytkowników poczty"
+msgstr "Najveći broj korisnika"
 
 #: ../templates/default/macros/policyd.html:18
 msgid "Number of max outgoing emails"
-msgstr "Maksymalna liczba wychodzących maili"
+msgstr "Najveći broj odlaznih pošti"
 
 #: ../templates/default/dashboard.html:66
 msgid "Number of users"
-msgstr "Liczba użytkowników"
+msgstr "Broj korinsika"
 
 #: ../templates/default/macros/general.html:481
 msgid "Old password"
-msgstr "Stare hasło"
+msgstr "Stara lozinka"
 
 #: ../templates/default/dbmail_mysql/alias/profile.html:165
 #: ../templates/default/dbmail_mysql/user/profile.html:181
@@ -2432,22 +2429,22 @@ msgstr "Stare hasło"
 #: ../templates/default/pgsql/alias/profile.html:178
 #: ../templates/default/pgsql/user/profile.html:194
 msgid "One mail address per line."
-msgstr "Jeden adres email w linii."
+msgstr "Jedna e-pošta po liniji."
 
 #: ../templates/default/macros/general.html:911
 #: ../templates/default/policyd/blacklist/create.html:40
 #: ../templates/default/policyd/blacklist/create.html:46
 #: ../templates/default/policyd/whitelist/create.html:40
 msgid "One record per line."
-msgstr "Jeden rekord w linii."
+msgstr "Jedan zapis po liniji."
 
 #: ../templates/default/macros/msgHandlers.html:341
 msgid "Operation completed."
-msgstr "Operacja zakończona"
+msgstr "Zahvat završen."
 
 #: ../templates/default/macros/msgHandlers.html:108
 msgid "Or create other mail accounts:"
-msgstr "Lub utwórz inne konta pocztowe:"
+msgstr "Ili napravi drugi nalog e-pošte:"
 
 #: ../templates/default/login.html:60
 #: ../templates/default/dbmail_mysql/admin/profile.html:45
@@ -2459,30 +2456,30 @@ msgstr "Lub utwórz inne konta pocztowe:"
 #: ../templates/default/pgsql/admin/profile.html:45
 #: ../templates/default/pgsql/user/profile.html:71
 msgid "Password"
-msgstr "Hasło"
+msgstr "Lozinka"
 
 #: ../templates/default/macros/msgHandlers.html:141
 #: ../templates/default/macros/msgHandlers.html:179
 msgid "Password is empty."
-msgstr "Hasło jest puste."
+msgstr "Lozinka je prazna."
 
 #: ../templates/default/macros/msgHandlers.html:143
 msgid "Password is too long."
-msgstr "Hasło jest za długie"
+msgstr "Lozinka je previše dugačka. "
 
 #: ../templates/default/macros/msgHandlers.html:142
 msgid "Password is too short."
-msgstr "Hasło jest za krótkie"
+msgstr "Lozinka je previše kratka."
 
 #: ../templates/default/macros/msgHandlers.html:64
 msgid "Password of cn=vmailadmin is incorrect."
-msgstr "Hasło cn=vmailadmin jest nieprawidłowe."
+msgstr "Lozinka od cn=vmailadmin je netačna."
 
 #: ../templates/default/ldap/user/profile.html:471
 #: ../templates/default/mysql/user/profile.html:396
 #: ../templates/default/pgsql/user/profile.html:396
 msgid "Path to mailbox"
-msgstr "Ścieżka do skrzynki pocztowej"
+msgstr "Putanja do poštanskog sandučeta"
 
 #: ../templates/default/ldap/domain/profile.html:273
 #: ../templates/default/ldap/user/profile.html:488
@@ -2491,71 +2488,73 @@ msgstr "Ścieżka do skrzynki pocztowej"
 #: ../templates/default/pgsql/domain/profile.html:213
 #: ../templates/default/pgsql/user/profile.html:233
 msgid "Per-domain bcc settings will override per-user bcc settings."
-msgstr "Ustawienia domenowe zastąpią ustawienia użytkownika"
+msgstr "Per-domain bcc podešavanja će zamenuti per-user bcc podešavanja."
 
 #: ../templates/default/macros/ldap.html:121
 #: ../templates/default/mysql/domain/profile.html:391
 msgid "Per-user greylisting setting has higher priority"
-msgstr "Wyższy priorytet ma Szara lista ustawiona dla użytkownika"
+msgstr "Per-user greylisting podešavanja imaju veći prioritet"
 
 #: ../templates/default/macros/general.html:590
 msgid ""
 "Per-user relay setting will override per-domain relay setting you set in "
 "this page."
-msgstr "Ustawienia domenowe zastąpią ustawienia użytkownika"
+msgstr ""
+"Per-user relay podešavanja će zamenuti per-domain relay podešavanja koja "
+"su postavljena na ovoj strani."
 
 #: ../templates/default/ldap/domain/profile.html:366
 #: ../templates/default/mysql/domain/profile.html:131
 #: ../templates/default/pgsql/domain/profile.html:132
 msgid "Per-user sender throttling has higher priority."
-msgstr "Wyższy priorytet mają ograniczenia dla nadawcy."
+msgstr "Per-user pošiljalac prigušenja ima veći prioritet."
 
 #: ../templates/default/macros/msgHandlers.html:98
 #: ../templates/default/macros/msgHandlers.html:171
 #: ../templates/default/macros/msgHandlers.html:306
 #: ../templates/default/macros/msgHandlers.html:325
 msgid "Permission denied."
-msgstr "Odmowa dostępu"
+msgstr "Dozvola je odbijena."
 
 #: ../templates/default/ldap/domain/profile.html:180
 msgid "Plain text only"
-msgstr "Tylko czysty tekst"
+msgstr "Samo običan tekst"
 
 #: ../templates/default/ldap/user/admin.html:133
 msgid ""
 "Please either mark mail user as domain admin or create a separate admin "
 "account."
 msgstr ""
-"Proszę albo oznaczyć użytkownika poczty jako administratora domeny lub "
-"utworzyć osobne konto administratora."
+"Molim vas ili obeležite korisnika pošte kao administratora domena ili "
+"napravite poseban admin nalog."
 
 #: ../templates/default/macros/msgHandlers.html:146
 msgid "Please select at least one account."
-msgstr "Wybierz przynajmniej jedno konto"
+msgstr "Molim vas izaberite barem jedan nalog."
 
 #: ../templates/default/macros/msgHandlers.html:101
 msgid "Please select at least one domain to apply action."
-msgstr "Aby wykonać działanie wybierz przynajmniej jedną domeną"
+msgstr "Molim vas izaberite barem jedan domen da bi primenili akciju."
 
 #: ../templates/default/macros/general.html:606
 msgid "Postfix manual page"
-msgstr "Strona podręcznika Postfix"
+msgstr "Postfix stranica za upotrebu"
 
 #: ../templates/default/layout.html:42
 msgid "Preferences"
-msgstr "Ustawienia"
+msgstr "Postavke"
 
 #: ../templates/default/macros/general.html:366
 msgid "Preferred language"
-msgstr "Preferowany język"
+msgstr "Željeni jezik"
 
 #: ../templates/default/macros/general.html:800
 msgid "Previous Page"
-msgstr "Poprzednia strona"
+msgstr "Prethodna strana"
 
 #: ../templates/default/panel/license.html:29
 msgid "Product name"
-msgstr "Nazwa hosta"
+msgstr "Naziv proizvoda"
 
 #: ../templates/default/dbmail_mysql/admin/profile.html:29
 #: ../templates/default/dbmail_mysql/admin/profile.html:60
@@ -2564,7 +2563,7 @@ msgstr "Nazwa hosta"
 #: ../templates/default/mysql/admin/profile.html:60
 #: ../templates/default/pgsql/admin/profile.html:60
 msgid "Profile of admin:"
-msgstr "Profil administratora"
+msgstr "Profile administratora:"
 
 #: ../templates/default/dbmail_mysql/alias/profile.html:24
 #: ../templates/default/dbmail_mysql/alias/profile.html:43
@@ -2575,7 +2574,7 @@ msgstr "Profil administratora"
 #: ../templates/default/pgsql/alias/profile.html:24
 #: ../templates/default/pgsql/alias/profile.html:43
 msgid "Profile of alias:"
-msgstr "Profil odnośnika"
+msgstr "Profil aliasa:"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:32
 #: ../templates/default/dbmail_mysql/domain/profile.html:71
@@ -2583,12 +2582,12 @@ msgstr "Profil odnośnika"
 #: ../templates/default/mysql/domain/profile.html:82
 #: ../templates/default/pgsql/domain/profile.html:83
 msgid "Profile of domain:"
-msgstr "Profil domeny:"
+msgstr "Profil domena:"
 
 #: ../templates/default/ldap/maillist/profile.html:34
 #: ../templates/default/ldap/maillist/profile.html:60
 msgid "Profile of mail list:"
-msgstr "Profil listy:"
+msgstr "Profile liste pošte:"
 
 #: ../templates/default/dbmail_mysql/user/profile.html:33
 #: ../templates/default/dbmail_mysql/user/profile.html:71
@@ -2599,13 +2598,13 @@ msgstr "Profil listy:"
 #: ../templates/default/pgsql/user/profile.html:50
 #: ../templates/default/pgsql/user/profile.html:87
 msgid "Profile of user:"
-msgstr "Profil użytkownika"
+msgstr "Korisnički profil:"
 
 #: ../templates/default/macros/msgHandlers.html:125
 #: ../templates/default/macros/msgHandlers.html:211
 #: ../templates/default/macros/msgHandlers.html:252
 msgid "Profile updated failed."
-msgstr "Aktualizacja profilu nieudana"
+msgstr "Ažuriranje profila nije uspelo."
 
 #: ../templates/default/macros/msgHandlers.html:88
 #: ../templates/default/macros/msgHandlers.html:124
@@ -2613,16 +2612,16 @@ msgstr "Aktualizacja profilu nieudana"
 #: ../templates/default/macros/msgHandlers.html:209
 #: ../templates/default/macros/msgHandlers.html:244
 msgid "Profile updated success."
-msgstr "Aktualizacja profilu zakończona sukcesem."
+msgstr "Uspešno ažuriranje profila."
 
 #: ../templates/default/panel/license.html:34
 msgid "Purchase date"
-msgstr "Data zakupu"
+msgstr "Datum kupovine"
 
 #: ../templates/default/dashboard.html:46
 #: ../templates/default/macros/amavisd.html:70
 msgid "Quarantined"
-msgstr "W kwarantannie"
+msgstr "U karantinu"
 
 #: ../templates/default/layout.html:93
 #: ../templates/default/amavisd/quarantined.html:18
@@ -2631,17 +2630,17 @@ msgstr "W kwarantannie"
 #: ../templates/default/macros/amavisd.html:95
 #: ../templates/default/panel/log.html:36
 msgid "Quarantined Mails"
-msgstr "Poczta w kwarantannie"
+msgstr "Pošta u karantinu"
 
 #: ../templates/default/amavisd/quarantined.html:38
 #, python-format
 msgid "Quarantined Mails of Domain: %s"
-msgstr "Poczta w kwarantannie poczodząca z domeny: %s"
+msgstr "Pošta u karantinu sa domena: %s"
 
 #: ../templates/default/amavisd/quarantined.html:41
 #, python-format
 msgid "Quarantined Mails of User: %s"
-msgstr "Poczta w kwarantannie należąca do użytkownika %s"
+msgstr "Pošta u karantinu od korisnika: %s"
 
 #: ../templates/default/amavisd/quarantined.html:61
 msgid ""
@@ -2649,16 +2648,16 @@ msgid ""
 "either delete them or release them. Mails will be delivered to user "
 "mailboxes after released."
 msgstr ""
-"Poczta w kwarantannie nie jest dostarczana użytkownikom. Możesz ją "
-"usunąć, bądź zezwolić na jej doręczenie. Po twoim zezwoleniu poczta "
-"zostanie doręczona do odbiorców"
+"Pošta u karantinu nije dostavljena korisnicima, ipak vi možeteda ih ili "
+"obrišete ili ih pustite ponovo. Po puštanju pošte biće dostavljeni u "
+"poštansko sanduče korinsika."
 
 #: ../templates/default/amavisd/quarantined.html:64
 #, python-format
 msgid ""
 "Quarantined mails older than %d days will be deleted from database "
 "permanantly."
-msgstr "Poczta w kwarantannie starsza niż %d dni zostanie automatycznie usunięta."
+msgstr "Pošta u karantinu starija od %d dana će biti obrisana iz baze trajno."
 
 #: ../templates/default/dbmail_mysql/search.html:146
 #: ../templates/default/dbmail_mysql/domain/list.html:54
@@ -2678,16 +2677,16 @@ msgstr "Poczta w kwarantannie starsza niż %d dni zostanie automatycznie usunię
 #: ../templates/default/pgsql/domain/list.html:54
 #: ../templates/default/pgsql/user/list.html:73
 msgid "Quota"
-msgstr "Przydział dysku"
+msgstr "Kvota"
 
 #: ../templates/default/macros/policyd.html:32
 msgid "Quota size of all outgoing emails"
-msgstr "Przydział dysku na wszystkie wychodzące maile"
+msgstr "Veličina kvote svih odlaznih pošta"
 
 #: ../templates/default/dashboard.html:28
 #: ../templates/default/macros/amavisd.html:71
 msgid "Received"
-msgstr "Otrzymane"
+msgstr "Primljeno"
 
 #: ../templates/default/layout.html:89
 #: ../templates/default/amavisd/inout.html:21
@@ -2696,47 +2695,45 @@ msgstr "Otrzymane"
 #: ../templates/default/macros/amavisd.html:87
 #: ../templates/default/panel/log.html:32
 msgid "Received Mails"
-msgstr "Otrzymanych wiadomości"
+msgstr "Primljene pošte"
 
 #: ../templates/default/amavisd/inout.html:56
 #, python-format
 msgid "Received Mails of Domain: %s"
-msgstr "Otrzymanych wiadomości w domenie: %s"
+msgstr "Pošta primljena sa domena: %s"
 
 #: ../templates/default/amavisd/inout.html:59
 #, python-format
 msgid "Received Mails of User: %s"
-msgstr "Wiadomości otrzymanych dla użytkownika: %s"
+msgstr "Primljena pošta od strane korisnika: %s"
 
 #: ../templates/default/macros/ldap.html:95
 #: ../templates/default/macros/mysql.html:61
 msgid "Receiving mails for this account on mail server"
-msgstr "Odbiór wiadomosci dla tego konta na serwerze"
+msgstr "Primanje pošte za ovaj nalog na mail server"
 
 #: ../templates/default/amavisd/inout.html:108
 #: ../templates/default/macros/amavisd.html:10
 msgid "Recipient"
-msgstr "Odbiorca"
+msgstr "Primalac"
 
 #: ../templates/default/policyd/blacklist/create.html:56
 #: ../templates/default/policyd/whitelist/create.html:50
 msgid "Record format"
-msgstr "Format pola"
+msgstr "Format zapisa"
 
 #: ../templates/default/macros/msgHandlers.html:275
 #, python-format
 msgid "Records are added. <a href=\"%s\" target=\"_blank\">View them now</a>"
-msgstr ""
-"Pola zostały dodany. <a href=\"%s\" target=\"_blank\">Przejrzyj je "
-"teraz</a>"
+msgstr "Zapisi su dodati. <a href=\"%s\" target=\"_blank\">Pregled sada</a>"
 
 #: ../templates/default/ldap/user/profile.html:351
 msgid "Reject mails from below senders"
-msgstr "Odrzuć pocztę od następujących nadawaców"
+msgstr "Odbijena pošta sa ispod prikazanim pošiljaocima"
 
 #: ../templates/default/ldap/user/profile.html:365
 msgid "Reject mails sent to below recipients"
-msgstr "Odrzuć wiadomości wysłane do poniższych odbiorców"
+msgstr "Odbijena pošta poslata na ispod prikazane primaoce"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:52
 #: ../templates/default/dbmail_mysql/user/profile.html:53
@@ -2747,57 +2744,57 @@ msgstr "Odrzuć wiadomości wysłane do poniższych odbiorców"
 #: ../templates/default/pgsql/domain/profile.html:63
 #: ../templates/default/pgsql/user/profile.html:68
 msgid "Relay"
-msgstr "Przekazy"
+msgstr "Prenesi"
 
 #: ../templates/default/macros/general.html:573
 msgid "Relay without verifying local recipients"
-msgstr "Przekaż bez sprawdzania lokalnych odbiorców"
+msgstr "Prenesi bez provere lokalnih primaoca"
 
 #: ../templates/default/macros/general.html:565
 msgid "Relay/Transport Setting"
-msgstr "Ustawienia transportu/przekazów"
+msgstr "Relay/Transport podešavanja"
 
 #: ../templates/default/panel/license.html:83
 msgid "Release Notes of latest version"
-msgstr "Informacje o wydaniu najnowszej wersji"
+msgstr "Beleške o najnovijoj verziji"
 
 #: ../templates/default/amavisd/quarantined.html:86
 msgid "Release selected"
-msgstr "Doręcz zaznaczone"
+msgstr "Izdanje izabrano"
 
 #: ../templates/default/login.html:72
 msgid "Remember me"
-msgstr "Zapamiętaj mnie"
+msgstr "Zapamti me"
 
 #: ../templates/default/ldap/maillist/profile.html:191
 #: ../templates/default/ldap/maillist/profile.html:237
 #: ../templates/default/ldap/maillist/profile.html:319
 #: ../templates/default/ldap/maillist/profile.html:364
 msgid "Remove from list"
-msgstr "Usuń z listy"
+msgstr "Ukloni sa liste"
 
 #: ../templates/default/panel/license.html:70
 msgid "Renew license"
-msgstr "Odnów licencję"
+msgstr "Obnovi licencu"
 
 #: ../templates/default/ldap/domain/profile.html:502
 msgid "Sample"
-msgstr "Przykład"
+msgstr "Primer"
 
 #: ../templates/default/macros/general.html:595
 msgid "Sample relay settings"
-msgstr "Przykładowe ustawienia przekazywania"
+msgstr "Primer podešavanja za prenos"
 
 #: ../templates/default/dbmail_mysql/user/profile.html:171
 #: ../templates/default/ldap/user/profile.html:288
 #: ../templates/default/mysql/user/profile.html:184
 #: ../templates/default/pgsql/user/profile.html:184
 msgid "Save a copy in mailbox"
-msgstr "Zapisz kopię w skrzynce pocztowej"
+msgstr "Snimi kopiju u poštansko sanduče"
 
 #: ../templates/default/macros/general.html:230
 msgid "Save changes"
-msgstr "Zapisz zmiany"
+msgstr "Snimi promene"
 
 #: ../templates/default/amavisd/inout.html:75
 #: ../templates/default/amavisd/quarantined.html:53
@@ -2810,126 +2807,126 @@ msgstr "Zapisz zmiany"
 #: ../templates/default/pgsql/search.html:20
 #: ../templates/default/pgsql/search.html:37
 msgid "Search"
-msgstr "Szukaj"
+msgstr "Traži"
 
 #: ../templates/default/macros/amavisd.html:58
 msgid "Search activities"
-msgstr "Wyszukiwania"
+msgstr "Aktivnost traženja"
 
 #: ../templates/default/macros/msgHandlers.html:343
 msgid "Search keyword could not be empty."
-msgstr "Poszukiwane określenie nie może być puste."
+msgstr "Tražena ključna reč ne može biti prazna."
 
 #: ../templates/default/layout.html:37
 msgid "Search mail accounts"
-msgstr "Lub utwórz inne konta pocztowe:"
+msgstr "Traži e-pošta naloge"
 
 #: ../templates/default/dbmail_mysql/search.html:64
 #: ../templates/default/ldap/search.html:61
 #: ../templates/default/mysql/search.html:65
 #: ../templates/default/pgsql/search.html:65
 msgid "Search results."
-msgstr "Wyniki wyszukiwania"
+msgstr "Rezultat pretrage."
 
 #: ../templates/default/macros/policyd.html:60
 msgid "Seconds"
-msgstr "Sekund"
+msgstr "Sekundi"
 
 #: ../templates/default/error_csrf.html:7
 msgid ""
 "Security token did not match. Please refresh current page and re-perform "
 "form action."
 msgstr ""
-"Token bezpieczeństwa jest niewłaściwy. Odświerz aktualną stronę i powtórz"
-" operacje."
+"Bezbednost tokena ne odgovara. Osvežite trenutnu stranicu i ponovo izvrši"
+" oblik akcija."
 
 #: ../templates/default/macros/msgHandlers.html:132
 #: ../templates/default/macros/msgHandlers.html:172
 #: ../templates/default/macros/msgHandlers.html:216
 #: ../templates/default/macros/msgHandlers.html:247
 msgid "Selected accounts were deleted."
-msgstr "Wybrane konta zostały usunięte."
+msgstr "Izabrani nalozi su obrisani."
 
 #: ../templates/default/macros/msgHandlers.html:133
 #: ../templates/default/macros/msgHandlers.html:173
 #: ../templates/default/macros/msgHandlers.html:217
 #: ../templates/default/macros/msgHandlers.html:248
 msgid "Selected accounts were disabled."
-msgstr "Wybrane konta zostały wyłączone"
+msgstr "Izabrani nalozi su onesposobljeni."
 
 #: ../templates/default/macros/msgHandlers.html:134
 #: ../templates/default/macros/msgHandlers.html:174
 #: ../templates/default/macros/msgHandlers.html:218
 #: ../templates/default/macros/msgHandlers.html:249
 msgid "Selected accounts were enabled."
-msgstr "Wybrane konta zostały usunięte."
+msgstr "Izabrani nalozi su omogućeni."
 
 #: ../templates/default/macros/msgHandlers.html:135
 msgid "Selected accounts were marked as domain admin."
-msgstr "Wybrane konta zostały usunięte."
+msgstr "Izabrani nalozi su obeleženi kao domen admini."
 
 #: ../templates/default/macros/msgHandlers.html:137
 msgid "Selected accounts were marked as global admin."
-msgstr "Wybrane konta zostały usunięte."
+msgstr "Izabrani nalozi su obeleženi kao global admini."
 
 #: ../templates/default/macros/msgHandlers.html:136
 msgid "Selected accounts were unmarked as domain admin."
-msgstr "Wybrane konta zostały usunięte."
+msgstr "Izabrani nalozi su neobeleženi kao domen admini."
 
 #: ../templates/default/macros/msgHandlers.html:138
 msgid "Selected accounts were unmarked as global admin."
-msgstr "Wybrane konta zostały usunięte."
+msgstr "Izabrani nalozi su neobeleženi kao global admini."
 
 #: ../templates/default/macros/msgHandlers.html:90
 msgid "Selected domains were deleted."
-msgstr "Wybrane domeny zostały usunięte."
+msgstr "Izabrani domeni su obrisani."
 
 #: ../templates/default/macros/msgHandlers.html:91
 msgid "Selected domains were disabled."
-msgstr "Wybrane domeny są teraz nieaktywne."
+msgstr "Izabrani domeni su onemogućeni."
 
 #: ../templates/default/macros/msgHandlers.html:92
 msgid "Selected domains were enabled."
-msgstr "Wybrane domeny są teraz aktywne."
+msgstr "Izabrani domeni su omogućeni."
 
 #: ../templates/default/macros/msgHandlers.html:289
 #: ../templates/default/macros/msgHandlers.html:322
 msgid "Selected log records were deleted."
-msgstr "Wybrane wpisy zostały usunięte."
+msgstr "Izabrani dnevnici zapisa su obrisani."
 
 #: ../templates/default/macros/msgHandlers.html:277
 msgid "Selected records were deleted."
-msgstr "Wybrane pola zostały usunięte."
+msgstr "Izabrani zapisi su obrisani."
 
 #: ../templates/default/panel/license.html:77
 msgid "Send me an email with download link"
-msgstr "Wyślij do mnie email z odnośnikiem do pobrania"
+msgstr "Pošalji mi e-poštu sa linkom za skidanje"
 
 #: ../templates/default/amavisd/inout.html:107
 #: ../templates/default/macros/amavisd.html:9
 #: ../templates/default/policyd/wblist.html:25
 msgid "Sender"
-msgstr "Nadawca"
+msgstr "Pošiljalac"
 
 #: ../templates/default/policyd/blacklist/create.html:64
 #: ../templates/default/policyd/whitelist/create.html:58
 msgid "Sender address"
-msgstr "Adres nadawcy"
+msgstr "Adresa pošiljaoca"
 
 #: ../templates/default/macros/ldap.html:89
 #: ../templates/default/macros/mysql.html:62
 msgid "Sending mails via SMTP"
-msgstr "Wysyłanie poczty przez SMTP."
+msgstr "Slanje pošte preko SMTP"
 
 #: ../templates/default/macros/ldap.html:90
 #: ../templates/default/macros/mysql.html:63
 msgid "Sending mails via SMTP over TLS/SSL"
-msgstr "Wysyłanie wiadomości przez SMTP z użyciem TLS/SSL"
+msgstr "Slanje pošte preko SMTP i TLS-SSL"
 
 #: ../templates/default/dashboard.html:33
 #: ../templates/default/macros/amavisd.html:72
 msgid "Sent"
-msgstr "Wysłane"
+msgstr "Poslato"
 
 #: ../templates/default/layout.html:88
 #: ../templates/default/amavisd/inout.html:19
@@ -2938,27 +2935,27 @@ msgstr "Wysłane"
 #: ../templates/default/macros/amavisd.html:86
 #: ../templates/default/panel/log.html:31
 msgid "Sent Mails"
-msgstr "Wysłane wiadomości"
+msgstr "Poslate pošte"
 
 #: ../templates/default/dashboard.html:111
 msgid "Server Load"
-msgstr "Obciążenie serwera"
+msgstr "Opterećenje servera"
 
 #: ../templates/default/macros/msgHandlers.html:96
 msgid ""
 "Server-side size limit exceeded. Please increase \"sizelimit\" in your "
 "LDAP server."
 msgstr ""
-"Przekroczony limit rozmiaru ustalony na serwerze. Zwiększ limit na "
-"serwerze LDAP."
+"Server-side ograničenje veličine premašen. Molimo povećajte \"sizelimit\""
+" na vašem LDAP serveru."
 
 #: ../templates/default/macros/msgHandlers.html:67
 msgid "Session expired, please re-login."
-msgstr "Sesja wygasła, proszę się zalogować ponownie"
+msgstr "Sessija istekla, molimo ponovo se prijavite na sistem."
 
 #: ../templates/default/macros/general.html:540
 msgid "Set to 0 for unlimited."
-msgstr "Wpisz 0 aby zlikwidować limit"
+msgstr "Postaviti na 0 za neograničeno."
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:364
 #: ../templates/default/ldap/domain/profile.html:434
@@ -2966,12 +2963,12 @@ msgstr "Wpisz 0 aby zlikwidować limit"
 #: ../templates/default/pgsql/domain/profile.html:423
 msgid "Set value to -1 means not allowed to create this kind of account."
 msgstr ""
-"Wartość ustawiona na -1 oznacza brak uprawnień do tworzenia tego rodzaju "
-"konta."
+"Postaviti vrednost na -1 znači da je zabranjeno pravljenje ovakve vrste "
+"naloga."
 
 #: ../templates/default/ldap/domain/profile.html:433
 msgid "Set value to 0 for unlimited."
-msgstr "Wpisz 0 aby znieść limity"
+msgstr "Postaviti vrednost na 0 za neograničeno."
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:125
 #: ../templates/default/dbmail_mysql/domain/profile.html:363
@@ -2987,28 +2984,28 @@ msgstr "Wpisz 0 aby znieść limity"
 #: ../templates/default/pgsql/domain/profile.html:421
 #: ../templates/default/pgsql/user/profile.html:357
 msgid "Set value to 0 or leave it empty for unlimited."
-msgstr "Wstaw wartość 0, bądź pozostaw puste aby znieść limity"
+msgstr "Postaviti vrednost na 0 ili ostaviti prazno za neograničeno."
 
 #: ../templates/default/policyd/blacklist/create.html:60
 #: ../templates/default/policyd/whitelist/create.html:54
 msgid "Single IP Address"
-msgstr "Pojedynczy adres IP"
+msgstr "Jedna IP adresa"
 
 #: ../templates/default/policyd/blacklist/create.html:72
 #: ../templates/default/policyd/whitelist/create.html:66
 msgid "Single domain"
-msgstr "Pojedyncza domena"
+msgstr "Jedan domen"
 
 #: ../templates/default/ldap/user/profile.html:385
 #: ../templates/default/policyd/blacklist/create.html:66
 #: ../templates/default/policyd/whitelist/create.html:60
 msgid "Single user"
-msgstr "Pojedynczy użytkownik"
+msgstr "Jedan korisnik"
 
 #: ../templates/default/amavisd/inout.html:109
 #: ../templates/default/macros/amavisd.html:12
 msgid "Size"
-msgstr "Wielkość"
+msgstr "Veličina"
 
 #: ../templates/default/macros/amavisd.html:29
 msgid "Spam"
@@ -3016,70 +3013,68 @@ msgstr "Spam"
 
 #: ../templates/default/dashboard.html:23
 msgid "Statistics of latest 24 hours"
-msgstr "Statystyki ostatnich 24 godzin"
+msgstr "Statistika zadnjih 24 sata"
 
 #: ../templates/default/macros/general.html:501
 msgid "Store password in plain text"
-msgstr "Bieżące hasło jest nieprawidłowe."
+msgstr "Snimi lozinku kako običan tekst"
 
 #: ../templates/default/dbmail_mysql/search.html:178
 #: ../templates/default/dbmail_mysql/user/list.html:91
 #: ../templates/default/mysql/user/list.html:111
 #: ../templates/default/pgsql/user/list.html:111
 msgid "Stored"
-msgstr "Użycie"
+msgstr "Uskladišten"
 
 #: ../templates/default/dashboard.html:79
 msgid "Stored emails"
-msgstr "Wiadomości pocztowych"
+msgstr "Uskladištene pošte"
 
 #: ../templates/default/amavisd/inout.html:106
 #: ../templates/default/macros/amavisd.html:8
 msgid "Subject"
-msgstr "Temat"
+msgstr "Naslov"
 
 #: ../templates/default/ldap/maillist/profile.html:387
 #: ../templates/default/ldap/maillist/profile.html:401
 #: ../templates/default/panel/log.html:68
 msgid "Submit"
-msgstr "Zapisz"
+msgstr "Primeni"
 
 #: ../templates/default/macros/msgHandlers.html:99
 msgid "Submited domain name is incorrect."
-msgstr "Wprowadzona domena jest nieprawidłowa"
+msgstr "Predato ime domena je netačno."
 
 #: ../templates/default/policyd/blacklist/create.html:61
 #: ../templates/default/policyd/whitelist/create.html:55
 msgid "Subnet"
-msgstr "Podsieć"
+msgstr "Podmreža"
 
 #: ../templates/default/layout.html:155
 msgid "Support"
-msgstr "Pomoc"
+msgstr "Podrška"
 
 #: ../templates/default/layout.html:80
 msgid "System"
-msgstr "System"
+msgstr "Sistem"
 
 #: ../templates/default/dashboard.html:53
 msgid "System Information"
-msgstr "Informacje o systemie"
+msgstr "Informacije sistema"
 
 #: ../templates/default/macros/general.html:335
 #: ../templates/default/macros/general.html:344
 msgid "Telephone Number"
-msgstr "Numer telefonu"
+msgstr "Broj telefona"
 
 #: ../templates/default/policyd/blacklist/create.html:83
 #: ../templates/default/policyd/whitelist/create.html:72
 msgid "The forward and reverse DNS name must match otherwise it will not work."
-msgstr ""
-"Domeny prosta i odwrotna muszą sobie odpowiadać. W przeciwnym razie "
-"ustawienia nie zadziałają."
+msgstr "Forward DNS i reverzni moraju biti isti u suprotnom neće raditi."
 
 #: ../templates/default/ldap/user/profile.html:379
 msgid "This is per-user white/blacklist."
-msgstr "To jest biała/czarna lista użytkowników"
+msgstr "Ovo je po korisniku bela/crna lista."
 
 #: ../templates/default/ldap/domain/profile.html:122
 #: ../templates/default/ldap/user/profile.html:120
@@ -3088,23 +3083,23 @@ msgstr "To jest biała/czarna lista użytkowników"
 #: ../templates/default/pgsql/domain/profile.html:66
 #: ../templates/default/pgsql/user/profile.html:69
 msgid "Throttling"
-msgstr "Ograniczenia"
+msgstr "Prigušivanje"
 
 #: ../templates/default/panel/log.html:82
 msgid "Time"
-msgstr "Czas"
+msgstr "Vreme"
 
 #: ../templates/default/macros/policyd.html:47
 msgid "Time Unit"
-msgstr "Jednostka czasu"
+msgstr "Vremenska jedinica"
 
 #: ../templates/default/dashboard.html:145
 msgid "Top 10 recipients"
-msgstr "Top 10 otrzymujących"
+msgstr "Top 10 primaoca"
 
 #: ../templates/default/dashboard.html:132
 msgid "Top 10 senders"
-msgstr "Top 10 wysyłających"
+msgstr "Top 10 pošiljaoca"
 
 #: ../templates/default/dbmail_mysql/domain/list.html:88
 #: ../templates/default/dbmail_mysql/domain/list.html:90
@@ -3116,7 +3111,7 @@ msgstr "Top 10 wysyłających"
 #: ../templates/default/pgsql/domain/list.html:99
 #: ../templates/default/pgsql/domain/list.html:107
 msgid "Total"
-msgstr "Przydział dysku"
+msgstr "Zbir"
 
 #: ../templates/default/dbmail_mysql/search.html:169
 #: ../templates/default/dbmail_mysql/search.html:171
@@ -3145,16 +3140,16 @@ msgstr "Przydział dysku"
 #: ../templates/default/pgsql/user/list.html:102
 #: ../templates/default/pgsql/user/list.html:104
 msgid "Unlimited"
-msgstr "Bez ograniczeń"
+msgstr "Neograničen"
 
 #: ../templates/default/ldap/user/admin.html:145
 #: ../templates/default/ldap/user/list.html:158
 msgid "Unmark as domain admin"
-msgstr "Wszyscy administratorzy poczty."
+msgstr "Demarkiraj kao domen admin"
 
 #: ../templates/default/ldap/user/list.html:162
 msgid "Unmark as global admin"
-msgstr "Zaznacz jako administratora globalnego"
+msgstr "Demarkiraj kao global admin"
 
 #: ../templates/default/ldap/maillist/profile.html:83
 #: ../templates/default/macros/general.html:753
@@ -3162,15 +3157,15 @@ msgstr "Zaznacz jako administratora globalnego"
 #: ../templates/default/mysql/alias/profile.html:72
 #: ../templates/default/pgsql/alias/profile.html:72
 msgid "Unrestricted"
-msgstr "Bez ograniczeń"
+msgstr "Neograničen"
 
 #: ../templates/default/panel/license.html:84
 msgid "Upgrade tutorials"
-msgstr "Samouczki uaktualniania"
+msgstr "Uputstva nadogradnje"
 
 #: ../templates/default/dashboard.html:105
 msgid "Uptime"
-msgstr "Czas pracy"
+msgstr "Uptime"
 
 #: ../templates/default/dbmail_mysql/domain/list.html:88
 #: ../templates/default/dbmail_mysql/domain/list.html:90
@@ -3182,7 +3177,7 @@ msgstr "Czas pracy"
 #: ../templates/default/mysql/domain/list.html:105
 #: ../templates/default/mysql/domain/list.html:107
 msgid "Used"
-msgstr "Użycie"
+msgstr "Upotrebljen"
 
 #: ../templates/default/layout.html:113
 #: ../templates/default/dbmail_mysql/search.html:42
@@ -3210,11 +3205,11 @@ msgstr "Użycie"
 #: ../templates/default/pgsql/user/create.html:84
 #: ../templates/default/pgsql/user/list.html:44
 msgid "User"
-msgstr "Użytkownik"
+msgstr "Korisnik"
 
 #: ../templates/default/macros/msgHandlers.html:153
 msgid "User created."
-msgstr "Użytkownik utworzony."
+msgstr "Korisnik napravljen."
 
 #: ../templates/default/dbmail_mysql/search.html:145
 #: ../templates/default/ldap/search.html:193
@@ -3228,19 +3223,19 @@ msgstr "Użytkownik utworzony."
 #: ../templates/default/pgsql/search.html:226
 #: ../templates/default/pgsql/user/list.html:69
 msgid "User/Employee ID"
-msgstr "ID Użytkownika/Pracownika"
+msgstr "Korisnik/Zaposlen ID"
 
 #: ../templates/default/login.html:55
 msgid "Username"
-msgstr "Nazwa użytkownika"
+msgstr "Korisničko ime"
 
 #: ../templates/default/macros/msgHandlers.html:65
 msgid "Username must be an valid email address."
-msgstr "Nazwa użytkownika musi być prawidłowym adresem email."
+msgstr "Korisničko ime mora biti ispravana e-poštanska adresa."
 
 #: ../templates/default/macros/msgHandlers.html:63
 msgid "Username or password is incorrect."
-msgstr "Nazwa użytkownika bądź hasło są nieprawidłowe."
+msgstr "Koriničko ime ili lozinka nije odgovarajuća."
 
 #: ../templates/default/dbmail_mysql/alias/create.html:48
 #: ../templates/default/dbmail_mysql/alias/list.html:25
@@ -3282,7 +3277,7 @@ msgstr "Nazwa użytkownika bądź hasło są nieprawidłowe."
 #: ../templates/default/pgsql/user/list.html:22
 #: ../templates/default/pgsql/user/profile.html:49
 msgid "Users"
-msgstr "Użytkownicy"
+msgstr "Korisnici"
 
 #: ../templates/default/dbmail_mysql/user/list.html:35
 #: ../templates/default/ldap/user/list.html:55
@@ -3290,17 +3285,17 @@ msgstr "Użytkownicy"
 #: ../templates/default/pgsql/user/list.html:49
 #, python-format
 msgid "Users under domain: %s"
-msgstr "Użytkownicy w domenie %s"
+msgstr "Korisnici pod domenom: %s"
 
 #: ../templates/default/ldap/search.html:266
 #: ../templates/default/ldap/maillist/list.html:88
 msgid "View members"
-msgstr "Przeglądaj użytkowników"
+msgstr "Pregled članova"
 
 #: ../templates/default/dashboard.html:40
 #: ../templates/default/macros/amavisd.html:31
 msgid "Virus"
-msgstr "Wirus"
+msgstr "Virus"
 
 #: ../templates/default/dbmail_mysql/domain/profile.html:390
 #: ../templates/default/ldap/user/profile.html:218
@@ -3310,47 +3305,47 @@ msgstr "Wirus"
 #: ../templates/default/pgsql/domain/profile.html:258
 #: ../templates/default/pgsql/domain/profile.html:450
 msgid "Warning"
-msgstr "Ostrzeżenie"
+msgstr "Upozorenje"
 
 #: ../templates/default/dbmail_mysql/user/profile.html:54
 #: ../templates/default/ldap/user/profile.html:121
 #: ../templates/default/mysql/user/profile.html:70
 #: ../templates/default/pgsql/user/profile.html:70
 msgid "White/Blacklist"
-msgstr "Biała/Czarna lista"
+msgstr "Bela/Crna lista"
 
 #: ../templates/default/policyd/wblist.html:10
 msgid "Whitelist"
-msgstr "Biała lista"
+msgstr "Bela lista"
 
 #: ../templates/default/ldap/user/profile.html:380
 msgid "Whitelist has higher priority than blacklist."
-msgstr "Biała lista ma wyższy priorytet niż czarna"
+msgstr "Bela lista ima veći prioritet od crne liste."
 
 #: ../templates/default/policyd/whitelist/create.html:39
 msgid "Whitelist records"
-msgstr "Pozycje białej listy"
+msgstr "Zapisi bele liste"
 
 #: ../templates/default/layout.html:98 ../templates/default/layout.html:122
 #: ../templates/default/policyd/wblist.html:53
 msgid "Whitelists"
-msgstr "Białe listy"
+msgstr "Bele liste"
 
 #: ../templates/default/ldap/maillist/profile.html:97
 #: ../templates/default/mysql/alias/profile.html:86
 #: ../templates/default/pgsql/alias/profile.html:86
 msgid "Who can send email to this list"
-msgstr "Kto może wysyłać pocztę na tą listę"
+msgstr "Ko može da šalje poštu na ovu listu"
 
 #: ../templates/default/panel/license.html:55
 #, python-format
 msgid "You are running version %s"
-msgstr "Używasz wersji %s"
+msgstr "Vi imate verziju %s"
 
 #: ../templates/default/ldap/user/create.html:82
 #, python-format
 msgid "You can NOT create more users under domain %s."
-msgstr "Nie możesz utworzyć więcej użytkowników w domenie %s"
+msgstr "Ne možete više korisnika da pravite pod domenom %s."
 
 #: ../templates/default/dbmail_mysql/alias/create.html:39
 #: ../templates/default/ldap/alias/create.html:52
@@ -3358,14 +3353,12 @@ msgstr "Nie możesz utworzyć więcej użytkowników w domenie %s"
 #: ../templates/default/pgsql/alias/create.html:51
 #, python-format
 msgid "You can create <strong>%d</strong> more mail alias(es) under domain %s."
-msgstr ""
-"Możesz jeszcze utworzyć <strong>%d</strong> aliasów pocztowych w domenie "
-"%s."
+msgstr "Možete praviti još <strong>%d</strong> e-pošta aliasa pod domenom %s."
 
 #: ../templates/default/ldap/maillist/create.html:53
 #, python-format
 msgid "You can create <strong>%d</strong> more mail list(s) under domain %s."
-msgstr "Możesz jeszcze utworzyć <strong>%d</strong> list mailowych w domenie %s"
+msgstr "Možete praviti još <strong>%d</strong> e-pošta lista pod domenom %s."
 
 #: ../templates/default/dbmail_mysql/user/create.html:61
 #: ../templates/default/ldap/user/create.html:93
@@ -3373,35 +3366,35 @@ msgstr "Możesz jeszcze utworzyć <strong>%d</strong> list mailowych w domenie %
 #: ../templates/default/pgsql/user/create.html:70
 #, python-format
 msgid "You can create <strong>%d</strong> more mail user(s) under domain %s."
-msgstr "Możesz jeszcze utworzyć <strong>%d</strong> użytkowników w domenie %s."
+msgstr "Možete praviti još <strong>%d</strong> e-pošta korisnika pod domenom %s."
 
 #: ../templates/default/dbmail_mysql/alias/create.html:32
 #: ../templates/default/mysql/alias/create.html:44
 #: ../templates/default/pgsql/alias/create.html:44
 #, python-format
 msgid "You can't create mail aliases under domain %s."
-msgstr "Nie można utworzyć więcej aliasów w domenie %s."
+msgstr "Ne možete da pravite e-pošta aliase pod domenom %s."
 
 #: ../templates/default/ldap/alias/create.html:47
 #, python-format
 msgid "You can't create more mail aliases under domain %s."
-msgstr "Nie można utworzyć więcej aliasów w domenie %s."
+msgstr "Ne možete da pravite više e-pošta aliase pod domenom %s."
 
 #: ../templates/default/ldap/maillist/create.html:48
 #, python-format
 msgid "You can't create more mail lists under domain %s."
-msgstr "Nie można utworzyć więcej list mailowych w domenie %s."
+msgstr "Ne možete da pravite e-pošta liste pod domenom %s."
 
 #: ../templates/default/dbmail_mysql/search.html:255
 #: ../templates/default/ldap/search.html:341
 #: ../templates/default/mysql/search.html:325
 #: ../templates/default/pgsql/search.html:325
 msgid "Your search returned no hits."
-msgstr "Wyszukiwanie nie dało wyniku"
+msgstr "Vaša pretraga nije dala rezultate."
 
 #: ../templates/default/macros/general.html:598
 msgid "default transport"
-msgstr "domyślny transport"
+msgstr "default transport"
 
 #: ../templates/default/macros/general.html:602
 msgid ""
@@ -3409,21 +3402,19 @@ msgid ""
 "required when you specify an IP address instead of a hostname, or disable"
 " MX DNS lookup."
 msgstr ""
-"przekazuj emaile do hosta example.com przez port 25. Wymagane jest "
-"podanie danych w postaci [] podczas wpisywania adresu IP zamiast nazwy "
-"hosta lub należy wyłączyć wyszukiwanie MX DNS."
+"preusmerena pošta na host example.com kroz port 25. Forma [] je potrebna "
+"kada se zadaje IP adresa umesto imena hosta, ili onesposobiti MX DNS "
+"lookup."
 
 #: ../templates/default/layout.html:66
 msgid "iRedMail Admin Panel"
-msgstr "Panel administracyjny iRedMail"
+msgstr "iRedMail Admin Panel"
 
 #: ../templates/default/macros/general.html:601
 msgid "receive but discard email, useful for mailboxes like noreply@example.com"
-msgstr ""
-"odbieraj ale wyrzucaj emaile, przydatne dla skrzynek typu "
-"noreply@example.com"
+msgstr "primljena ali odbačena pošta, korisna za sanduče tipa noreply@example.com"
 
 #: ../templates/default/macros/general.html:192
 msgid "without verifying local recipients"
-msgstr "bez sprawdzania lokalnych odbiorców"
+msgstr "Bez provere lokalnih primaoca"
 
