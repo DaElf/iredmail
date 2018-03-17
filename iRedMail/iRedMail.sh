@@ -102,10 +102,13 @@ export DOMAIN_ADMIN_EMAIL="${DOMAIN_ADMIN_NAME}@${FIRST_DOMAIN}"
 
 # Import functions in specified order.
 if [ X"${DISTRO}" == X'FREEBSD' ]; then
+	echo "FreeBSD"
     # Install packages from freebsd ports tree.
-    . ${FUNCTIONS_DIR}/packages_freebsd.sh
+#    . ${FUNCTIONS_DIR}/packages_freebsd.sh
 else
-    . ${FUNCTIONS_DIR}/packages.sh
+   #  Install packages
+	echo "Not FreeBSD"
+#    . ${FUNCTIONS_DIR}/packages.sh
 fi
 
 . ${FUNCTIONS_DIR}/system_accounts.sh
