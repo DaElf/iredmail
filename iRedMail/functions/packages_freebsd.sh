@@ -1079,12 +1079,12 @@ EOF
         echo "export status_post_install_cleanup='DONE'" >> ${STATUS_FILE}
     }
 
-    check_status_before_run fetch_all_src_tarballs
+#    check_status_before_run fetch_all_src_tarballs
 
     # Do not run it with 'check_status_before_run', so that we can always
     # install missed packages and enable/disable new services while re-run
     # iRedMail installer.
-    install_all_ports
+#    install_all_ports
 
     check_status_before_run post_install_cleanup
 }
