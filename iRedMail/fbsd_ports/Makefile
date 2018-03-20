@@ -61,6 +61,7 @@ MY_DEPENDS += \
 	p5-IO-Socket-SSL>=0:${PORTSDIR}/security/p5-IO-Socket-SSL \
 	nginx>=0:${PORTSDIR}/www/nginx \
 	sogo3>=0:${PORTSDIR}/www/sogo3 \
+	bash:${PORTDIR}/shells/bash-static \
 
 MY_DEPENDS += \
 	mysql${PREFERRED_MYSQL_VER}-server>=5.7:${PORTSDIR}/databases/mysql${PREFERRED_MYSQL_VER}-server \
