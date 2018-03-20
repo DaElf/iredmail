@@ -22,6 +22,11 @@
 
 install_all()
 {
+	echo "install_all not doing anything"
+}
+
+install_all_full()
+{
     # Port name under /usr/ports/. e.g. mail/dovecot.
     ALL_PORTS=''
 
