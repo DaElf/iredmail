@@ -65,7 +65,8 @@ MY_DEPENDS += \
 
 MY_DEPENDS += \
 	mysql${PREFERRED_MYSQL_VER}-server>=5.7:${PORTSDIR}/databases/mysql${PREFERRED_MYSQL_VER}-server \
-	mysql${PREFERRED_MYSQL_VER}-client>=5.7:${PORTSDIR}/databases/mysql${PREFERRED_MYSQL_VER}-client
+	mysql${PREFERRED_MYSQL_VER}-client>=5.7:${PORTSDIR}/databases/mysql${PREFERRED_MYSQL_VER}-client \
+	uwsgi>0:${PORTSDIR}/www/uwsgi \
 
 RUN_DEPENDS = ${MY_DEPENDS}
 
