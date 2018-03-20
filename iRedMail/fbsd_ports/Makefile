@@ -1,6 +1,6 @@
 PORTNAME=	iRedMail-packages
 PORTVERSION=	1.0
-CATEGORIES=	mail
+CATEGORIES=	mail misc
 
 MAINTAINER=	cattelan@digitalelves.com
 COMMENT=	Stuff
@@ -10,15 +10,14 @@ PREFERRED_PHP_VER=71
 PREFERRED_PGSQL_VER=95
 PREFERRED_MYSQL_VER=57
 
-foo = \
-	py27-MySQLdb>=1.0:${PORTSDIR}/databases/py-MySQLdb \
-	openldap${PREFERRED_OPENLDAP_VER}-client>=0:${PORTSDIR}/net/openldap${PREFERRED_OPENLDAP_VER}-client \
+MY_DEPENDS = \
+        py27-MySQLdb>0:${PORTSDIR}/databases/py-MySQLdb
 
-RUN_DEPENDS += \
+MY_DEPENDS += \
 	jpeg>0:${PORTSDIR}/graphics/jpeg \
 	libgd>2:${PORTSDIR}/graphics/gd
 
-RUN_DEPENDS += \
+MY_DEPENDS += \
 	arj>=0:${PORTSDIR}/archivers/arj \
 	p5-Archive-Tar>=0:${PORTSDIR}/archivers/p5-Archive-Tar \
 	p7zip>=0:${PORTSDIR}/archivers/p7zip \
@@ -63,14 +62,11 @@ RUN_DEPENDS += \
 	nginx>=0:${PORTSDIR}/www/nginx \
 	sogo3>=0:${PORTSDIR}/www/sogo3 \
 
-RUN_DEPENDS += \
+MY_DEPENDS += \
 	mysql${PREFERRED_MYSQL_VER}-server>=5.7:${PORTSDIR}/databases/mysql${PREFERRED_MYSQL_VER}-server \
 	mysql${PREFERRED_MYSQL_VER}-client>=5.7:${PORTSDIR}/databases/mysql${PREFERRED_MYSQL_VER}-client
 
-BUILD_DEPENDS += \
-	mysql${PREFERRED_MYSQL_VER}-client>=5.7:${PORTSDIR}/databases/mysql${PREFERRED_MYSQL_VER}-client
-
-BUILD_DEPENDS += ${RUN_DEPENDS}
+RUN_DEPENDS = ${MY_DEPENDS}
 
 
 USES=		metaport
