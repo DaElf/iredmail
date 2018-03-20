@@ -1,6 +1,6 @@
 PORTNAME=	iRedMail-packages
 PORTVERSION=	1.0
-CATEGORIES=	mail misc
+CATEGORIES=	mail
 
 MAINTAINER=	cattelan@digitalelves.com
 COMMENT=	Stuff
@@ -48,7 +48,7 @@ MY_DEPENDS += \
 	postfix>=0:${PORTSDIR}/mail/postfix \
 	roundcube>=0:${PORTSDIR}/mail/roundcube \
 	openldap-sasl-client>=2.4:${PORTSDIR}/net/openldap${PREFERRED_OPENLDAP_VER}-sasl-client \
-	openldap-sasl-server>=0:${PORTSDIR}/net/openldap${PREFERRED_OPENLDAP_VER}-server \
+	openldap-server>=0:${PORTSDIR}/net/openldap${PREFERRED_OPENLDAP_VER}-server \
 	openslp>=0:${PORTSDIR}/net/openslp \
 	py27-ldap>=2:${PORTSDIR}/net/py-ldap \
 	amavisd-new>=2:${PORTSDIR}/security/amavisd-new \
@@ -61,7 +61,7 @@ MY_DEPENDS += \
 	p5-IO-Socket-SSL>=0:${PORTSDIR}/security/p5-IO-Socket-SSL \
 	nginx>=0:${PORTSDIR}/www/nginx \
 	sogo3>=0:${PORTSDIR}/www/sogo3 \
-	bash:${PORTDIR}/shells/bash-static \
+	bash:${PORTSDIR}/shells/bash-static \
 
 MY_DEPENDS += \
 	mysql${PREFERRED_MYSQL_VER}-server>=5.7:${PORTSDIR}/databases/mysql${PREFERRED_MYSQL_VER}-server \
