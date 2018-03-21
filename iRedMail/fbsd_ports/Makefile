@@ -45,6 +45,7 @@ MY_DEPENDS += \
 	cairo>=0:${PORTSDIR}/graphics/cairo \
 	python27>=0:${PORTSDIR}/lang/python27 \
 	dovecot>=0:${PORTSDIR}/mail/dovecot \
+	dovecot-pigeonhole>=0:${PORTSDIR}/mail/dovecot-pigeonhole \
 	postfix>=0:${PORTSDIR}/mail/postfix \
 	roundcube>=0:${PORTSDIR}/mail/roundcube \
 	openldap-sasl-client>=2.4:${PORTSDIR}/net/openldap${PREFERRED_OPENLDAP_VER}-sasl-client \
@@ -67,6 +68,7 @@ MY_DEPENDS += \
 	mysql${PREFERRED_MYSQL_VER}-server>=5.7:${PORTSDIR}/databases/mysql${PREFERRED_MYSQL_VER}-server \
 	mysql${PREFERRED_MYSQL_VER}-client>=5.7:${PORTSDIR}/databases/mysql${PREFERRED_MYSQL_VER}-client \
 	uwsgi>0:${PORTSDIR}/www/uwsgi \
+	webpy>0:${PORTSDIR}/www/webpy \
 
 RUN_DEPENDS = ${MY_DEPENDS}
 
