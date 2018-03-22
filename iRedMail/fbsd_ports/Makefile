@@ -14,7 +14,6 @@ MY_DEPENDS = \
         py27-MySQLdb>0:${PORTSDIR}/databases/py-MySQLdb
 
 MY_DEPENDS += \
-	jpeg>0:${PORTSDIR}/graphics/jpeg \
 	libgd>2:${PORTSDIR}/graphics/gd
 
 MY_DEPENDS += \
