@@ -116,3 +116,7 @@ echo "export SOGO_SIEVE_MASTER_PASSWD='${SOGO_SIEVE_MASTER_PASSWD}'" >> ${IREDMA
 export random_pw="$(${RANDOM_STRING})"
 export IREDAPD_DB_PASSWD="${IREDAPD_DB_PASSWD:=${random_pw}}"
 echo "export IREDAPD_DB_PASSWD='${IREDAPD_DB_PASSWD}'" >> ${IREDMAIL_CONFIG_FILE}
+
+# Not really optional
+echo "export IREDMAIL_USE_PHP='YES'" >> ${IREDMAIL_CONFIG_FILE}
+

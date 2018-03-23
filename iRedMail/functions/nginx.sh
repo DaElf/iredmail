@@ -134,6 +134,9 @@ nginx_config()
 
     # php-fpm
     if [ X"${IREDMAIL_USE_PHP}" == X'YES' ]; then
+	grep -q 'listen.owner' ${PHP_FPM_POOL_WWW_CONF} || echo "listen.owner = ENV{HTTPD_USER}" >> ${PHP_FPM_POOL_WWW_CONF}
+	grep -q 'listen.group' ${PHP_FPM_POOL_WWW_CONF} || echo "listen.group = ENV{HTTPD_GROUP}" >> ${PHP_FPM_POOL_WWW_CONF}
+        grep -q 'listen.mode' ${PHP_FPM_POOL_WWW_CONF} || echo "listen.mode  = 0660" >> ${PHP_FPM_POOL_WWW_CONF}
         perl -pi -e 's#^(listen *=).*#${1} $ENV{PHP_FPM_SOCKET}#g' ${PHP_FPM_POOL_WWW_CONF}
         perl -pi -e 's#^;(listen.owner *=).*#${1} $ENV{HTTPD_USER}#g' ${PHP_FPM_POOL_WWW_CONF}
         perl -pi -e 's#^;(listen.group *=).*#${1} $ENV{HTTPD_GROUP}#g' ${PHP_FPM_POOL_WWW_CONF}
