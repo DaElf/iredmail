@@ -1,0 +1,7 @@
+mail/iRedMail-packages
+mail/iRedMail-packages2
+devel/git
+net/mosh
+net/rsync
+sysutils/tmux
+security/sudo
