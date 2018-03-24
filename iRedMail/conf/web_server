@@ -45,7 +45,9 @@ elif [ X"${DISTRO}" == X'FREEBSD' ]; then
 
     # Web data.
     export HTTPD_SERVERROOT='/usr/local/www'
-    export HTTPD_DOCUMENTROOT="${HTTPD_SERVERROOT}/htdocs"
+    # This does not jive with the setup for iRedAdmin
+    #export HTTPD_DOCUMENTROOT="${HTTPD_SERVERROOT}/htdocs"
+    export HTTPD_DOCUMENTROOT="${HTTPD_SERVERROOT}"
 
 elif [ X"${DISTRO}" == X'OPENBSD' ]; then
     # Daemon user.
