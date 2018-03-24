@@ -47,8 +47,8 @@ MY_DEPENDS += \
 	dovecot-pigeonhole>=0:${PORTSDIR}/mail/dovecot-pigeonhole \
 	postfix>=0:${PORTSDIR}/mail/postfix \
 	roundcube>=0:${PORTSDIR}/mail/roundcube \
-	openldap-sasl-client>=2.4:${PORTSDIR}/net/openldap${PREFERRED_OPENLDAP_VER}-sasl-client \
-	openldap-sasl-server>=0:${PORTSDIR}/net/openldap${PREFERRED_OPENLDAP_VER}-server \
+	openldap-sasl-client>0:${PORTSDIR}/net/openldap${PREFERRED_OPENLDAP_VER}-sasl-client \
+	openldap-sasl-server>0:${PORTSDIR}/net/openldap${PREFERRED_OPENLDAP_VER}-server \
 	openslp>=0:${PORTSDIR}/net/openslp \
 	py27-ldap>=2:${PORTSDIR}/net/py-ldap \
 	amavisd-new>=2:${PORTSDIR}/security/amavisd-new \
