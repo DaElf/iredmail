@@ -5,3 +5,5 @@ net/mosh
 net/rsync
 sysutils/tmux
 security/sudo
+textproc/jq
+devel/oniguruma
