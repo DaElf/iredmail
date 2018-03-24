@@ -34,6 +34,7 @@ MY_DEPENDS += \
 	uwsgi>0:${PORTSDIR}/www/uwsgi \
 	webpy>0:${PORTSDIR}/www/webpy \
 	python27>0:${PORTSDIR}/lang/python27 \
+        py27-MySQLdb>0:${PORTSDIR}/databases/py-MySQLdb \
 
 RUN_DEPENDS = ${MY_DEPENDS}
 
