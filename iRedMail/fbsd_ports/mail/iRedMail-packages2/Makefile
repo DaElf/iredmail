@@ -35,6 +35,11 @@ MY_DEPENDS += \
 	webpy>0:${PORTSDIR}/www/webpy \
 	python27>0:${PORTSDIR}/lang/python27 \
         py27-MySQLdb>0:${PORTSDIR}/databases/py-MySQLdb \
+	py27-sqlalchemy12>0:${PORTSDIR}/databases/py-sqlalchemy12 \
+	py27-dnspython>0:${PORTSDIR}/dns/py-dnspython \
+	p5-DBD-mysql>0:${PORTSDIR}/databases/p5-DBD-mysql \
+	p5-DBD-Pg>0:${PORTSDIR}/databases/p5-DBD-Pg \
+
 
 RUN_DEPENDS = ${MY_DEPENDS}
 
