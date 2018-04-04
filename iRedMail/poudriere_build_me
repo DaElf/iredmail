@@ -1,4 +1,4 @@
-mail/iRedMail-packages
+#mail/iRedMail-packages
 mail/iRedMail-packages2
 devel/git
 net/mosh
@@ -7,3 +7,5 @@ sysutils/tmux
 security/sudo
 textproc/jq
 devel/oniguruma
+mail/postfix-current
+mail/sendmail
