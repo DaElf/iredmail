@@ -9,3 +9,5 @@ textproc/jq
 devel/oniguruma
 mail/postfix-current
 mail/sendmail
+www/mod_perl2
+devel/p5-BSD-Resource
