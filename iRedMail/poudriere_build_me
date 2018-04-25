@@ -9,5 +9,8 @@ textproc/jq
 devel/oniguruma
 mail/postfix-current
 mail/sendmail
+mail/dspam
+mail/rspamd
 www/mod_perl2
 devel/p5-BSD-Resource
+net/phpldapadmin
